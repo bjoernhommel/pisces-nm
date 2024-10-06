@@ -1,0 +1,73 @@
+{
+    "_comment": "If necessary, you can use this property to add comments to the file",
+    "contentType": "self-report",
+    "datasetFilename": "wp0185.parquet",
+    "datasetUrl": "https://osf.io/v65q7/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 7,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Climate change mitigation behaviour",
+            "instrumentNameShort": "MIB",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Climate change mitigation behaviour",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "MIB5_r", "MIB7_r", "MIB8_r" ],
+                    "upperItemIds": [ "MIB1", "MIB2", "MIB3", "MIB14", "MIB16", "MIB19", "MIB110" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "MIB1", "itemStemText": "Riding a bicycle or taking public transportation rather than taking the car. 0", "responseFormatId": "RF1" },
+                { "itemId": "MIB2", "itemStemText": "Recycling paper.", "responseFormatId": "RF1" },
+                { "itemId": "MIB3", "itemStemText": "Buying seasonal produce.", "responseFormatId": "RF1" },
+                { "itemId": "MIB4", "itemStemText": "Waiting until I have a full load before doing laundry.", "responseFormatId": "RF1" },
+                { "itemId": "MIB5_r", "itemStemText": "Showering for longer than 5 minutes.", "responseFormatId": "RF1" },
+                { "itemId": "MIB6", "itemStemText": "Taking the train or car rather than a plane when possible.", "responseFormatId": "RF1" },
+                { "itemId": "MIB7_r", "itemStemText": "Eating meat with my dinner.", "responseFormatId": "RF1" },
+                { "itemId": "MIB8_r", "itemStemText": "Leaving my cell phone charger plugged in when not in use.", "responseFormatId": "RF1" },
+                { "itemId": "MIB9", "itemStemText": "Turning the lights off when I am the last person to leave a room. ", "responseFormatId": "RF1" },
+                { "itemId": "MIB10", "itemStemText": "Purchasing an energy efficient device when I purchase a new electronic appliance.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

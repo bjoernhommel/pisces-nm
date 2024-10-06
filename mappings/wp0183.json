@@ -1,0 +1,124 @@
+{
+    "_comment": "If necessary, you can use this property to add comments to the file",
+    "contentType": "self-report",
+    "datasetFilename": "wp0183.parquet",
+    "datasetUrl": "https://www.sciencedirect.com/science/article/pii/S0272494421001055#sec2",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 7,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "climate change perception",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Reality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Reality_2_r", "Reality_4_r" ],
+                    "upperItemIds": [ "Reality_1", "Reality_3", "Reality_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Causes",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Causes_2_recode_r", "Causes_5_recode_r" ],
+                    "upperItemIds": [ "Causes_1_recode", "Causes_3_recode", "Causes_4_recode" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Valence of consequences",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Consequences_2_recode_r", "Consequences_5_recode_r" ],
+                    "upperItemIds": [ "Consequences_1_recode", "Consequences_3_recode", "Consequences_4_recode" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Spatial distance",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Spatial_1_recode_r", "Spatial_3_recode_r", "Spatial_5_recode_r" ],
+                    "upperItemIds": [ "Spatial_2_recode", "Spatial_4_recode" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "opennesTemporal distance",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Temporal_1_recode_r", "Temporal_5_recode_r" ],
+                    "upperItemIds": [ "Temporal_2_recode", "Temporal_3_recode", "Temporal_4_recode" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Reality_1", "itemStemText": "I believe that climate change is real.", "responseFormatId": "RF1" },
+                { "itemId": "Reality_2_r", "itemStemText": "Climate change is NOT occurring.", "responseFormatId": "RF1" },
+                { "itemId": "Reality_3", "itemStemText": "The world's climate is changing.", "responseFormatId": "RF1" },
+                { "itemId": "Reality_4_r", "itemStemText": "I do NOT believe that climate change is real.", "responseFormatId": "RF1" },
+                { "itemId": "Reality_5", "itemStemText": "Climate change is happening.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_1_recode", "itemStemText": "Human activities are a major cause of climate change.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_2_recode_r", "itemStemText": "Climate change is mainly due to natural causes. ", "responseFormatId": "RF1" },
+                { "itemId": "Cause_3_recode", "itemStemText": "Climate change is mostly caused by human activity.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_4_recode", "itemStemText": "The main causes of climate change are human activities.", "responseFormatId": "RF1" },
+                { "itemId": "Cause_5_recode_r", "itemStemText": "Climate change is caused entirely by natural processes.", "responseFormatId": "RF1" },
+                { "itemId": "Consequence_1_recode", "itemStemText": "Overall, climate change will bring more negative than positive consequences to the world.", "responseFormatId": "RF1" },
+                { "itemId": "Consequence_2_recode_r", "itemStemText": "Climate change will mostly have positive consequences. ", "responseFormatId": "RF1" },
+                { "itemId": "Consequence_3_recode", "itemStemText": "Climate change will bring about serious negative consequences.", "responseFormatId": "RF1" },
+                { "itemId": "Consequence_4_recode", "itemStemText": "The consequences of climate change will be very serious.", "responseFormatId": "RF1" },
+                { "itemId": "Consequence_5_recode_r", "itemStemText": "There will be mostly positive consequences of climate change.", "responseFormatId": "RF1" },
+                { "itemId": "Spatial_1_recode_r", "itemStemText": "My local area will be influenced by climate change. ", "responseFormatId": "RF1" },
+                { "itemId": "Spatial_2_recode", "itemStemText": "Climate change only influences locations far away from me", "responseFormatId": "RF1" },
+                { "itemId": "Spatial_3_recode_r", "itemStemText": "The region where I live will experience the consequences of climate change.", "responseFormatId": "RF1" },
+                { "itemId": "Spatial_4_recode", "itemStemText": "The consequences of climate change will only take place in distant locations.", "responseFormatId": "RF1" },
+                { "itemId": "Spatial_5_recode_r", "itemStemText": "Climate change will also influence the place where I live. ", "responseFormatId": "RF1" },
+                { "itemId": "Temporal_1_recode_r", "itemStemText": "The consequences of climate change are visible now. ", "responseFormatId": "RF1" },
+                { "itemId": "Temporal_2_recode", "itemStemText": "It will be a long time before the consequences of climate change are felt.", "responseFormatId": "RF1" },
+                { "itemId": "Temporal_3_recode", "itemStemText": "Only future generations will experience the consequences of climate change.", "responseFormatId": "RF1" },
+                { "itemId": "Temporal_4_recode", "itemStemText": "The consequences of climate change will only be experienced in the far future.", "responseFormatId": "RF1" },
+                { "itemId": "Temporal_5_recode_r", "itemStemText": "The effects of climate change will be felt very soon.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

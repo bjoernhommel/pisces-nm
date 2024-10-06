@@ -1,0 +1,81 @@
+{
+    "_comment": "If necessary, you can use this property to add comments to the file",
+    "contentType": "self-report",
+    "datasetFilename": "wp0174.parquet",
+    "datasetUrl": "https://github.com/Meike-K/nfc-k/tree/master/Teil2_Validierungsstudie",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 5,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "trifft überhaupt nicht zu",
+                "2": null,
+                "3": null,
+                "4": "weder noch",
+                "5": null,
+                "6": null,
+                "7": "trifft voll und ganz zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Typical Intelectual Engagement",
+            "instrumentNameShort": "TIE",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Typical Intelectual Engagement ",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "TIE_6_r", "TIE_8_r", "TIE_9_r", "TIE_10_r", "TIE_11_r", "TIE_12_r" ],
+                    "upperItemIds": [ "TIE_1", "TIE_2", "TIE_3", "TIE_4", "TIE_5", "TIE_7", "TIE_13", "TIE_14", "TIE_15", "TIE_16", "TIE_17", "TIE_18" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "TIE_1", "itemStemText": "Ich genieße die Herausforderung einen anspruchsvollen Roman zu lesen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_2", "itemStemText": "Ich lese eine ganze Menge.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_3", "itemStemText": "Als ich ein Kind war habe ich alle Bücher im Haus gelesen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_4", "itemStemText": "Ich habe am Lesen von Büchern über die unterschiedlichsten Themen lebhaftes Interesse.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_5", "itemStemText": "Ich lese mindestens zehn Bücher im Jahr.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_6_r", "itemStemText": "Ich lasse die Dinge lieber einfach passieren anstatt den Versuch zu unternehmen, zu verstehen, warum es so gekommen ist.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_7", "itemStemText": "Ich denke gerne über ein Problem/eine Frage nach, auch wenn das keinen Einfluß auf das Ergebnis hat.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_8_r", "itemStemText": "Meistens führt mehr Nachdenken einfach nur zu mehr Fehlern.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_9_r", "itemStemText": "Ich bin geneigt komplizierten Problemen aus dem Weg zu gehen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_10_r", "itemStemText": "Denken ist nicht das, was ich unter Spaß verstehe.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_11_r", "itemStemText": "Die Vorstellung abstrakt zu denken reizt mich nicht.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_12_r", "itemStemText": "Ich muß zugeben, daß ich keinen großen Wunsch hege neue Dinge zu lernen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_13", "itemStemText": "Ich höre gerne Reden zu den verschiedensten Themen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_14", "itemStemText": "Es gibt sehr wenige Themen, die mich langweilen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_15", "itemStemText": "Ich würde gerne die Einzelheiten von Entdeckungen in jedem Bereich erfahren.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_16", "itemStemText": "Ich sehe lieber Bildungs- als Unterhaltungsprogramme im Fernsehen.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_17", "itemStemText": "In beinahe jedem Teil der Tageszeitung steht etwas, das mich interessiert.", "responseFormatId": "RF1" },
+                { "itemId": "TIE_18", "itemStemText": "Ich versuche mir feste Zeitspannen freizuhalten, um über Dinge nachzudenken, die mich interessieren.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

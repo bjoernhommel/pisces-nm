@@ -1,0 +1,82 @@
+{
+    "_comment": "If necessary, you can use this property to add comments to the file",
+    "contentType": "self-report",
+    "datasetFilename": "wp0181.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0274083#sec006",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 6,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "never",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": "As frequently as possible"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "pro-environmental behavior",
+            "instrumentNameShort": "PEB",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": null,
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Private Behaviors",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Priv_PEB_1", "Priv_PEB_2", "Priv_PEB_3", "Priv_PEB_5", "Priv_PEB_6", "Priv_PEB_8" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Public Behaviors",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Pub_PEB_1", "Pub_PEB_2", "Pub_PEB_3", "Pub_PEB_4", "Pub_PEB_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Priv_PEB_1", "itemStemText": "Bought environmentally friendly and/or energy efficient products", "responseFormatId": "RF1" },
+                { "itemId": "Priv_PEB_2", "itemStemText": "Walked or rode a bike when traveling short distances", "responseFormatId": "RF1" },
+                { "itemId": "Priv_PEB_3", "itemStemText": "Reused or mended items rather than throwing them away", "responseFormatId": "RF1" },
+                { "itemId": "Priv_PEB_5", "itemStemText": "Avoided buying products with excessive packaging", "responseFormatId": "RF1" },
+                { "itemId": "Priv_PEB_6", "itemStemText": "Bought organic vegetables", "responseFormatId": "RF1" },
+                { "itemId": "Priv_PEB_8", "itemStemText": "Minimized use of heating or air conditioning to limit energy use", "responseFormatId": "RF1" },
+                { "itemId": "Pub_PEB_1", "itemStemText": "Talked to others in your community about environmental issues", "responseFormatId": "RF1" },
+                { "itemId": "Pub_PEB_2", "itemStemText": "Worked with others to address an environmental problem or issue", "responseFormatId": "RF1" },
+                { "itemId": "Pub_PEB_3", "itemStemText": "Participated as an active member in a local environmental group", "responseFormatId": "RF1" },
+                { "itemId": "Pub_PEB_4", "itemStemText": "Signed a petition about an environmental issue", "responseFormatId": "RF1" },
+                { "itemId": "Pub_PEB_5", "itemStemText": "Donated money to support local environmental protection", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
