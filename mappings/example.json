@@ -1,0 +1,123 @@
+{
+    "_comment": "",
+    "contentType": "self-report",
+    "datasetFilename": "example.parquet",
+    "datasetUrl": "https://www.rdocumentation.org/packages/psych/versions/2.3.3/topics/bfi",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 6,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Very Inaccurate",
+                "2": "Moderately Inaccurate",
+                "3": "Slightly Inaccurate",
+                "4": "Slightly Accurate",
+                "5": "Moderately Accurate",
+                "6": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "International Personality Item Pool Big-Five Inventory",
+            "instrumentNameShort": "IPIP-BFI",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Goldberg, L.R. (1999) A broad-bandwidth, public domain, personality inventory measuring the lower-level facets of several five-factor models. In Mervielde, I. and Deary, I. and De Fruyt, F. and Ostendorf, F. (eds) Personality psychology in Europe. 7. Tilburg University Press. Tilburg, The Netherlands.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Agreeableness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "A1" ],
+                    "upperItemIds": [ "A2", "A3", "A4", "A5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Conscientiousness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "C4", "C5" ],
+                    "upperItemIds": [ "C1", "C2", "C3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Extraversion",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "E1", "E2" ],
+                    "upperItemIds": [ "E3", "E4", "E5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neuroticism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "N1", "N2", "N3", "N4", "N5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "openness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "O2", "O5" ],
+                    "upperItemIds": [ "O1", "O3", "O4" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "A1", "itemStemText": "I am indifferent to the feelings of others.", "responseFormatId": "RF1" },
+                { "itemId": "A2", "itemStemText": "I inquire about others' well-being.", "responseFormatId": "RF1" },
+                { "itemId": "A3", "itemStemText": "I know how to comfort others.", "responseFormatId": "RF1" },
+                { "itemId": "A4", "itemStemText": "I love children.", "responseFormatId": "RF1" },
+                { "itemId": "A5", "itemStemText": "I make people feel at ease.", "responseFormatId": "RF1" },
+                { "itemId": "C1", "itemStemText": "I am exacting in my work.", "responseFormatId": "RF1" },
+                { "itemId": "C2", "itemStemText": "I continue until everything is perfect.", "responseFormatId": "RF1" },
+                { "itemId": "C3", "itemStemText": "I do things according to a plan.", "responseFormatId": "RF1" },
+                { "itemId": "C4", "itemStemText": "I do things in a half-way manner.", "responseFormatId": "RF1" },
+                { "itemId": "C5", "itemStemText": "I waste my time.", "responseFormatId": "RF1" },
+                { "itemId": "E1", "itemStemText": "I don't talk a lot.", "responseFormatId": "RF1" },
+                { "itemId": "E2", "itemStemText": "I find it difficult to approach others.", "responseFormatId": "RF1" },
+                { "itemId": "E3", "itemStemText": "I know how to captivate people.", "responseFormatId": "RF1" },
+                { "itemId": "E4", "itemStemText": "I make friends easily.", "responseFormatId": "RF1" },
+                { "itemId": "E5", "itemStemText": "I take charge.", "responseFormatId": "RF1" },
+                { "itemId": "N1", "itemStemText": "I get angry easily.", "responseFormatId": "RF1" },
+                { "itemId": "N2", "itemStemText": "I get irritated easily.", "responseFormatId": "RF1" },
+                { "itemId": "N3", "itemStemText": "I have frequent mood swings.", "responseFormatId": "RF1" },
+                { "itemId": "N4", "itemStemText": "I often feel blue.", "responseFormatId": "RF1" },
+                { "itemId": "N5", "itemStemText": "I panic easily.", "responseFormatId": "RF1" },
+                { "itemId": "O1", "itemStemText": "I am full of ideas.", "responseFormatId": "RF1" },
+                { "itemId": "O2", "itemStemText": "I avoid difficult reading material.", "responseFormatId": "RF1" },
+                { "itemId": "O3", "itemStemText": "I carry the conversation to a higher level.", "responseFormatId": "RF1" },
+                { "itemId": "O4", "itemStemText": "I spend time reflecting on things.", "responseFormatId": "RF1" },
+                { "itemId": "O5", "itemStemText": "I will not probe deeply into a subject.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

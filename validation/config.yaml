@@ -1,0 +1,17 @@
+mapping_paths:
+  - './mappings/'
+data_paths:
+  - './data/'
+schema_path: './validation/schema.json'
+cache_path: './validation/validated.json'
+logging_path: './validation/validation.log'
+to_ignore:
+    # - example
+exceptions: # can use wildcards ("*") in data path, e.g. ["instruments", "*", "items"]
+  openpsychometrics-fbps:
+    - path: ["instruments", "0", "scales"]
+  osf-bainbridge-2021-s2-0:
+    - path: ["instruments", "23", "scales"]
+  mapping:
+    - path: ["responseFormats", "4"]
+    - path: ["instruments", "4", "items"]

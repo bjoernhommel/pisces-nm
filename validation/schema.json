@@ -1,0 +1,147 @@
+{
+    "type": "object",
+    "properties": {
+      "_comment": { "type": ["string", "null"] },
+      "contentType": { "type": "string", "enum": ["self-report"] },
+      "datasetFilename": {
+        "oneOf": [
+          { "type": "string", "pattern": "^[^/\\\\]+\\.parquet$" },
+          { "type": "null" }
+        ]
+      },
+      "datasetUrl": { "type": ["string", "null"] },
+      "datasetIsbn": { "type": ["string", "null"] },
+      "datasetDoi": { "type": ["string", "null"] },
+      "datasetApaReference": { "type": ["string", "null"] },
+      "datasetApaCitation": { "type": ["string", "null"] },
+      "responseFormats": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "responseFormatId": { "type": "string" },
+            "responseFormatType": { "type": "string", "enum": ["rating scale", "single choice"] },
+            "dataType": { "type": "string", "enum": ["integer", "string", "float"] },
+            "minValue": { "type": "number" },
+            "maxValue": { "type": "number" },
+            "incrementValue": { "type": "number" },
+            "responseFormatLabels": {
+              "type": "object",
+              "patternProperties": {
+                "^[0-9]+$": { "type": ["string", "null"] }
+              },
+              "additionalProperties": true
+            }
+          },
+          "required": [ "responseFormatId", "responseFormatType", "dataType", "minValue", "maxValue", "incrementValue", "responseFormatLabels" ]
+        }
+      },
+      "instruments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "instrumentName": { "type": ["string", "null"] },
+            "instrumentNameShort": { "type": ["string", "null"] },
+            "instrumentLanguage": { "type": "string", "enum": ["en", "de"] },
+            "instrumentUrl": { "type": ["string", "null"] },
+            "instrumentIsbn": { "type": ["string", "null"] },
+            "instrumentDoi": { "type": ["string", "null"] },
+            "instrumentApaReference": { "type": ["string", "null"] },
+            "instrumentApaCitation": { "type": ["string", "null"] },
+            "instrumentIsProprietary": { "type": ["boolean", "null"] },
+            "scales": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "scaleName": { "type": "string" },
+                        "scaleDefinitionText": { "type": ["string", "null"] },
+                        "lowerItemIds": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "upperItemIds": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "scaleLowerFeedbackText": { "type": ["string", "null"] },
+                        "scaleUpperFeedbackText": { "type": ["string", "null"] },
+                        "scaleFeedbackTexts": {
+                            "type": ["array", "null"],
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": [
+                        "scaleName",
+                        "scaleDefinitionText",
+                        "lowerItemIds",
+                        "upperItemIds",
+                        "scaleLowerFeedbackText",
+                        "scaleUpperFeedbackText",
+                        "scaleFeedbackTexts"
+                    ]
+                }
+            },
+            "subsets": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "subsetName": { "type": "string" },
+                        "subsetDescription": { "type": ["string", "null"] },
+                        "subsetItemIds": {
+                          "oneOf": [
+                            { "type": "array", "items": { "type": "string" } },
+                            { "type": "string", "enum": ["*"] }
+                          ]
+                        },
+                        "scaleStatistics": {
+                            "type": ["array", "null"],
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "scaleName": { "type": ["string"] },
+                                    "mean": { "type": ["number"] },
+                                    "sd": { "type": ["number"] }
+                                },
+                                "required": ["scaleName"]
+                            }
+                        }
+                    },
+                    "required": [
+                        "subsetName",
+                        "subsetDescription",
+                        "subsetItemIds",
+                        "scaleStatistics"
+                    ]
+                }
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "itemId": { "type": "string" },
+                  "itemStemText": { "type": "string" },
+                  "responseFormatId": { "type": "string" }
+                },
+                "required": ["itemId", "itemStemText", "responseFormatId"]
+              }
+            }
+          },
+          "required": [ "instrumentName", "instrumentNameShort", "instrumentLanguage", "instrumentUrl", "instrumentIsbn", "instrumentDoi", "instrumentApaReference", "instrumentApaCitation", "instrumentIsProprietary", "scales", "subsets", "items" ]
+        }
+      }
+    },
+    "required": [ "_comment", "contentType", "datasetFilename", "datasetUrl", "datasetIsbn", "datasetDoi", "datasetApaReference", "datasetApaCitation", "responseFormats", "instruments"]
+  }
+  
