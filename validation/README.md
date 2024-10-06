@@ -13,6 +13,6 @@ Arguments for CLI:
 - `--data_paths` specify data paths
 
 Examples:
-- `python .\py\validation\validate_mappings.py --auto --confirm --mapping_paths './batches/mappings/' --data_paths './batches/data'`
+- `python .\validation\validate_mappings.py --auto --mapping_paths './mappings/' --data_paths './data'`
 
 
