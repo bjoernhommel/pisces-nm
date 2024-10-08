@@ -19,7 +19,7 @@
                 "1": "trifft überhaupt nicht zu",
                 "2": null,
                 "3": null,
-                "4": null,
+                "4": "weder noch",
                 "5": null,
                 "6": null,
                 "7": "trifft voll und ganz zu"
@@ -41,8 +41,8 @@
                 {
                     "scaleName": "Need for Cognition",
                     "scaleDefinitionText": null,
-                    "lowerItemIds": [ "nfc_k_423_3_r", "nfc_k_423_4_r", "nfc_k_423_5_r" ],
-                    "upperItemIds": [ "nfc_k_423_1", "nfc_k_423_2" ],
+                    "lowerItemIds": [ "nfc_k423_3_r", "nfc_k423_4_r", "nfc_k423_5_r" ],
+                    "upperItemIds": [ "nfc_k423_1", "nfc_k423_2" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -57,11 +57,11 @@
                 }
             ],
             "items": [
-                { "itemId": "nfc_k_423_1", "itemStemText": "Ich setze mir eher solche Ziele, die nur mit erheblicher geistiger Anstrengung erreicht werden können.", "responseFormatId": "RF1" },
-                { "itemId": "nfc_k_423_2", "itemStemText": "Ich finde es besonders befriedigend, eine bedeutende Aufgabe abzuschließen, die viel Denken und geistige Anstrengung erfordert hat.", "responseFormatId": "RF1" },
-                { "itemId": "nfc_k_423_3_r", "itemStemText": "Ich würde lieber etwas tun, das wenig Denken erfordert, als etwas, das mit Sicherheit meine Denkfähigkeit herausfordert.", "responseFormatId": "RF1" },
-                { "itemId": "nfc_k_423_4_r", "itemStemText": "Ich finde wenig Befriedigung darin, angestrengt und stundenlang nachzudenken.", "responseFormatId": "RF1" },
-                { "itemId": "nfc_k_423_5_r", "itemStemText": "In erster Linie denke ich, weil ich muss.", "responseFormatId": "RF1" }
+                { "itemId": "nfc_k423_1", "itemStemText": "Ich setze mir eher solche Ziele, die nur mit erheblicher geistiger Anstrengung erreicht werden können.", "responseFormatId": "RF1" },
+                { "itemId": "nfc_k423_2", "itemStemText": "Ich finde es besonders befriedigend, eine bedeutende Aufgabe abzuschließen, die viel Denken und geistige Anstrengung erfordert hat.", "responseFormatId": "RF1" },
+                { "itemId": "nfc_k423_3_r", "itemStemText": "Ich würde lieber etwas tun, das wenig Denken erfordert, als etwas, das mit Sicherheit meine Denkfähigkeit herausfordert.", "responseFormatId": "RF1" },
+                { "itemId": "nfc_k423_4_r", "itemStemText": "Ich finde wenig Befriedigung darin, angestrengt und stundenlang nachzudenken.", "responseFormatId": "RF1" },
+                { "itemId": "nfc_k423_5_r", "itemStemText": "In erster Linie denke ich, weil ich muss.", "responseFormatId": "RF1" }
             ]
         }
     ]

@@ -42,7 +42,7 @@
                     "scaleName": "Climate change mitigation behaviour",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [ "MIB5_r", "MIB7_r", "MIB8_r" ],
-                    "upperItemIds": [ "MIB1", "MIB2", "MIB3", "MIB14", "MIB16", "MIB19", "MIB110" ],
+                    "upperItemIds": [ "MIB1", "MIB2", "MIB3", "MIB4", "MIB6", "MIB9", "MIB10" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
