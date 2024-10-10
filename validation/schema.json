@@ -2,7 +2,7 @@
     "type": "object",
     "properties": {
       "_comment": { "type": ["string", "null"] },
-      "contentType": { "type": "string", "enum": ["self-report"] },
+      "datasetContentType": { "type": "string", "enum": ["self-report"] },
       "datasetFilename": {
         "oneOf": [
           { "type": "string", "pattern": "^[^/\\\\]+\\.parquet$" },

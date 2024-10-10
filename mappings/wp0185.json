@@ -1,6 +1,6 @@
 {
     "_comment": "If necessary, you can use this property to add comments to the file",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0185.parquet",
     "datasetUrl": "https://osf.io/v65q7/",
     "datasetIsbn": null,
@@ -36,7 +36,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Climate change mitigation behaviour",

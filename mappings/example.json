@@ -1,6 +1,6 @@
 {
     "_comment": "",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "example.parquet",
     "datasetUrl": "https://www.rdocumentation.org/packages/psych/versions/2.3.3/topics/bfi",
     "datasetIsbn": null,
@@ -35,7 +35,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": "Goldberg, L.R. (1999) A broad-bandwidth, public domain, personality inventory measuring the lower-level facets of several five-factor models. In Mervielde, I. and Deary, I. and De Fruyt, F. and Ostendorf, F. (eds) Personality psychology in Europe. 7. Tilburg University Press. Tilburg, The Netherlands.",
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Agreeableness",

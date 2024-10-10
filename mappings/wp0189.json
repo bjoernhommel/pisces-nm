@@ -1,6 +1,6 @@
 {
     "_comment": "If necessary, you can use this property to add comments to the file",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0189.parquet",
     "datasetUrl": "https://github.com/Meike-K/nfc-k/tree/master/Teil2_Validierungsstudie",
     "datasetIsbn": null,
@@ -36,7 +36,7 @@
             "instrumentDoi": null,
             "instrumentApaReference": null,
             "instrumentApaCitation": null,
-            "instrumentIsProprietary": null,
+            "instrumentIsProprietary": false,
             "scales": [
                 {
                     "scaleName": "Need for Cognition",
