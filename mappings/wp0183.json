@@ -48,10 +48,10 @@
                     "scaleFeedbackTexts": null
                 },
                 {
-                    "scaleName": "Causes",
+                    "scaleName": "Cause",
                     "scaleDefinitionText": null,
-                    "lowerItemIds": [ "Causes_2_recode_r", "Causes_5_recode_r" ],
-                    "upperItemIds": [ "Causes_1_recode", "Causes_3_recode", "Causes_4_recode" ],
+                    "lowerItemIds": [ "Cause_2_recode_r", "Cause_5_recode_r" ],
+                    "upperItemIds": [ "Cause_1_recode", "Cause_3_recode", "Cause_4_recode" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -59,8 +59,8 @@
                 {
                     "scaleName": "Valence of consequences",
                     "scaleDefinitionText": null,
-                    "lowerItemIds": [ "Consequences_2_recode_r", "Consequences_5_recode_r" ],
-                    "upperItemIds": [ "Consequences_1_recode", "Consequences_3_recode", "Consequences_4_recode" ],
+                    "lowerItemIds": [ "Consequence_2_recode_r", "Consequence_5_recode_r" ],
+                    "upperItemIds": [ "Consequence_1_recode", "Consequence_3_recode", "Consequence_4_recode" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
