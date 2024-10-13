@@ -142,6 +142,6 @@
         }
       }
     },
-    "required": [ "_comment", "contentType", "datasetFilename", "datasetUrl", "datasetIsbn", "datasetDoi", "datasetApaReference", "datasetApaCitation", "responseFormats", "instruments"]
+    "required": [ "_comment", "datasetContentType", "datasetFilename", "datasetUrl", "datasetIsbn", "datasetDoi", "datasetApaReference", "datasetApaCitation", "responseFormats", "instruments"]
   }
   
