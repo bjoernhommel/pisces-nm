@@ -21,10 +21,10 @@
           "properties": {
             "responseFormatId": { "type": "string" },
             "responseFormatType": { "type": "string", "enum": ["rating scale", "single choice"] },
-            "dataType": { "type": "string", "enum": ["integer", "string", "float"] },
-            "minValue": { "type": "number" },
-            "maxValue": { "type": "number" },
-            "incrementValue": { "type": "number" },
+            "responseFormatDataType": { "type": "string", "enum": ["integer", "string", "float"] },
+            "responseFormatMinValue": { "type": "number" },
+            "responseFormatMaxValue": { "type": "number" },
+            "responseFormatIncrementValue": { "type": "number" },
             "responseFormatLabels": {
               "type": "object",
               "patternProperties": {
@@ -33,7 +33,7 @@
               "additionalProperties": true
             }
           },
-          "required": [ "responseFormatId", "responseFormatType", "dataType", "minValue", "maxValue", "incrementValue", "responseFormatLabels" ]
+          "required": [ "responseFormatId", "responseFormatType", "responseFormatDataType", "responseFormatMinValue", "responseFormatMaxValue", "responseFormatIncrementValue", "responseFormatLabels" ]
         }
       },
       "instruments": {

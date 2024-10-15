@@ -11,10 +11,10 @@
         {
             "responseFormatId": "RF1",
             "responseFormatType": "rating scale",
-            "dataType": "integer",
-            "minValue": 0,
-            "maxValue": 6,
-            "incrementValue": 1,
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
             "responseFormatLabels": {
                 "0": "never",
                 "1": null,
