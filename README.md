@@ -77,10 +77,10 @@ Mapping Schema Properties:
 ##### Response Formats
 - `responseFormatId` (string): Unique identifier for the response format.
 - `responseFormatType` (string): Either "rating scale" or "single choice".
-- `dataType` (string): The data type of the response values (e.g., "integer", "string", "float").
-- `minValue` (number): Minimum value for the response (e.g., 1).
-- `maxValue` (number): Maximum value for the response (e.g., 6).
-- `incrementValue` (number): The increment between values (e.g., 1).
+- `responseFormatDataType` (string): The data type of the response values (e.g., "integer", "string", "float").
+- `responseFormatMinValue` (number): Minimum value for the response (e.g., 1).
+- `responseFormatMaxValue` (number): Maximum value for the response (e.g., 6).
+- `responseFormatIncrementValue` (number): The increment between values (e.g., 1).
 - `responseFormatLabels` (object): Describes what each value represents. Key should be a string representing a number (e.g., "1": "Very Inaccurate").
 ##### Instruments
 - `instrumentName` (string, null): Full name of the instrument.
