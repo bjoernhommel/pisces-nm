@@ -1,0 +1,3 @@
+from vscode_deleted_file_recovery import Recover
+
+Recover.restore_files(search_term="C:/Users/nanam/Arbeit/New_validation/pisces-nm") # Dein gewünschter Suchpfad

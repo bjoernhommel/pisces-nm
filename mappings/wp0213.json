@@ -1,0 +1,112 @@
+{
+    "_comment": "",
+    "contentType": "self-report",
+    "datasetFilename": "example.parquet",
+    "datasetUrl": "https://www.rdocumentation.org/packages/psych/versions/2.3.3/topics/bfi",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 7,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Balanced Inventory od desirable responding",
+            "instrumentNameShort": "BIDR",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Littrell, S., Risko, E. F., & Fugelsang, J. A. (2021). The bullshitting frequency scale: Development and psychometric properties. British Journal of Social Psychology, 60(1), 248-270.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "deceptive enhancement",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "SDE_1","SDE_2","SDE_3","SDE_4","SDE_5","SDE_6","SDE_7","SDE_8","SDE_9","SDE_10","SDE_11","SDE_12","SDE_13","SDE_14","SDE_15","SDE_16","SDE_17","SDE_18","SDE_19","SDE_20" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "impression management",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "IM_1","IM_2","IM_3","IM_4","IM_5","IM_6","IM_7","IM_8","IM_9","IM_10","IM_11","IM_12","IM_13","IM_14","IM_15","IM_16","IM_17","IM_18","IM_19","IM_20" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "SDE_1", "itemStemText": "My first impressions of people usually turn out to be right.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_2", "itemStemText": "It would be hard for me to break any of my bad habits.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_3", "itemStemText": "I don't care to know what other people really think of me.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_4", "itemStemText": "I have not always been honest with myself.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_5", "itemStemText": "I always know why I like things.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_6", "itemStemText": "When my emotions are aroused, it biases my thinking.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_7", "itemStemText": "Once I've made up my mind, other people can seldom change my opinion.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_8", "itemStemText": "I am not a safe driver when I exceed the speed limit.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_9", "itemStemText": "I am fully in control of my own fate.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_10", "itemStemText": "It's hard for me to shut off a disturbing thought.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_11", "itemStemText": "I never regret my decisions.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_12", "itemStemText": "I sometimes lose out on things because I can't make up my mind soon enough.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_13", "itemStemText": "The reason I vote is because my vote can make a difference.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_14", "itemStemText": "My parents were not always fair when they punished me.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_15", "itemStemText": "I am a completely rational person.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_16", "itemStemText": "I rarely appreciate criticism.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_17", "itemStemText": "I am very confident of my judgments", "responseFormatId": "RF1" },
+                { "itemId": "SDE_18", "itemStemText": "I have sometimes doubted my ability as a lover.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_19", "itemStemText": "It's all right with me if some people happen to dislike me.", "responseFormatId": "RF1" },
+                { "itemId": "SDE_20", "itemStemText": "I don't always know the reasons why I do the things I do.", "responseFormatId": "RF1" },
+                { "itemId": "IM_1", "itemStemText": "I sometimes tell lies if I have to.", "responseFormatId": "RF1" },
+                { "itemId": "IM_2", "itemStemText": "I never cover up my mistakes.", "responseFormatId": "RF1" },
+                { "itemId": "IM_3", "itemStemText": "There have been occasions when I have taken advantage of someone.", "responseFormatId": "RF1" },
+                { "itemId": "IM_4", "itemStemText": "I never swear.", "responseFormatId": "RF1" },
+                { "itemId": "IM_5", "itemStemText": "I sometimes try to get even rather than forgive and forget.", "responseFormatId": "RF1" },
+                { "itemId": "IM_6", "itemStemText": "I always obey laws, even if I'm unlikely to get caught.", "responseFormatId": "RF1" },
+                { "itemId": "IM_7", "itemStemText": "I have said something bad about a friend behind his/her back.", "responseFormatId": "RF1" },
+                { "itemId": "IM_8", "itemStemText": "When I hear people talking privately, I avoid listening.", "responseFormatId": "RF1" },
+                { "itemId": "IM_9", "itemStemText": "I have received too much change from a salesperson without telling him or her.", "responseFormatId": "RF1" },
+                { "itemId": "IM_10", "itemStemText": "I always declare everything at customs.", "responseFormatId": "RF1" },
+                { "itemId": "IM_11", "itemStemText": "When I was young I sometimes stole things.", "responseFormatId": "RF1" },
+                { "itemId": "IM_12", "itemStemText": "I have never dropped litter on the street.", "responseFormatId": "RF1" },
+                { "itemId": "IM_13", "itemStemText": "I sometimes drive faster than the speed limit.", "responseFormatId": "RF1" },
+                { "itemId": "IM_14", "itemStemText": "I never read sexy books or magazines.", "responseFormatId": "RF1" },
+                { "itemId": "IM_15", "itemStemText": "I have done things that I don't tell other people about.", "responseFormatId": "RF1" },
+                { "itemId": "IM_16", "itemStemText": "I never take things that don't belong to me.", "responseFormatId": "RF1" },
+                { "itemId": "IM_17", "itemStemText": "I have taken sick-leave from work or school even though I wasn't really sick.", "responseFormatId": "RF1" },
+                { "itemId": "IM_18", "itemStemText": "I have never damaged a library book or store merchandise without reporting it.", "responseFormatId": "RF1" },
+                { "itemId": "IM_19", "itemStemText": "I have some pretty awful habits.", "responseFormatId": "RF1" },
+                { "itemId": "IM_20", "itemStemText": "I don't gossip about other people's business.", "responseFormatId": "RF1"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "_comment": "",
+    "contentType": "self-report",
+    "datasetFilename": "wp0207.parquet",
+    "datasetUrl": "https://osf.io/dh6vj/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "dataType": "integer",
+            "minValue": 1,
+            "maxValue": 5,
+            "incrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Never",
+                "2": "Rarely",
+                "3": "Occasionally/Sometimes",
+                "4": "Frequently",
+                "5": "A Lot/ All the time"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Bullshitting Frequency Scale development",
+            "instrumentNameShort": "BSF",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Littrell, S., Risko, E. F., & Fugelsang, J. A. (2021). The bullshitting frequency scale: Development and psychometric properties. British Journal of Social Psychology, 60(1), 248-270.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": null,
+            "scales": [
+                {
+                    "scaleName": "Bullshitting Frequency Scale ",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "BSF_1", "BSF_2", "BSF_3", "BSF_4", "BSF_5", "BSF_6", "BSF_7", "BSF_8", "BSF_9", "BSF_10", "BSF_11", "BSF_12", "BSF_14", "BSF_15", "BSF_16", "BSF_17", "BSF_18" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+                
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "BSF_4", "itemStemText": "When I want to impress the people I'm talking to.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_9", "itemStemText": "When I want others to see me as more intelligent or knowledgeable.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_3", "itemStemText": "When I know it will be easy to get away with it.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_11", "itemStemText": "When I know it will help me achieve a goal.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_5", "itemStemText": "When I know it will get me what I need or want.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_14", "itemStemText": "When I'm trying to fit in better or be more accepted by the person or people I'm interacting with.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_2", "itemStemText": "When I want the thing(s) I'm talking about to sound more interesting or exciting.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_10", "itemStemText": "When I want to contribute to a conversation or discussion even though I'm not well-informed on the topic.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_1", "itemStemText": "By pretending to know more about a topic than I actually do.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_12", "itemStemText": "When I feel obligated to share my opinion.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_15", "itemStemText": "When I'm trying to avoid looking stupid.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_17", "itemStemText": "When I'm 'put on the spot' and asked about something I don't know much about.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_18", "itemStemText": "When I don't want to tell someone what I really think.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_6", "itemStemText": "When someone asks me something that I want to avoid giving a direct answer to.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_8", "itemStemText": "When being fully honest would be harmful or embarrassing to me or someone else.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_7", "itemStemText": "When I need to fake/bluff my way out of a conversation or situation that I don't want to be in.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_16", "itemStemText": "When I want to deflect criticism or questions that might make me look bad.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
