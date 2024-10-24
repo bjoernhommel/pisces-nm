@@ -1,0 +1,99 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0205.parquet",
+    "datasetUrl": "https://osf.io/b89ng/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "definitely not",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "definitely yes"
+            }
+        },
+        {
+            "responseFormatId": "RF2",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Openness and Refusal Scales",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Rosenfeld, D. L., & Tomiyama, A. J. (2022). Jab my arm, not my morality: Perceived moral reproach as a barrier to COVID-19 vaccine uptake. Social Science & Medicine, 294, 114699.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Openness to Getting Vaccinated",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "Openness_1", "Openness_2", "Openness_3", "Openness_3", "Openness_4","Openness_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Refusal to Get Vaccinated",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "Openness2_1", "Openness2_2", "Openness2_3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Openness_1", "itemStemText": "I can imagine myself scheduling a COVID-19 vaccine appointment within the next month.", "responseFormatId": "RF1" },
+                { "itemId": "Openness_2", "itemStemText": "I am open to getting a COVID-19 vaccine within the next few months.", "responseFormatId": "RF1" },
+                { "itemId": "Openness_3", "itemStemText": "I can imagine myself getting a COVID-19 vaccine within the next year.", "responseFormatId": "RF1" },
+                { "itemId": "Openness_4", "itemStemText": "Regardless of when it will be, I do plan on getting a COVID-19 vaccine one day.", "responseFormatId": "RF1" },
+                { "itemId": "Openness_5", "itemStemText": "I might be open to getting a COVID-19 vaccine one day.", "responseFormatId": "RF1" },
+                { "itemId": "Openness2_1", "itemStemText": "I refuse to ever get a COVID-19 vaccine, even if my doctor insists that I do.", "responseFormatId": "RF2" },
+                { "itemId": "Openness2_2", "itemStemText": "I refuse to ever get a COVID-19 vaccine, even if I were paid a lot of money to get it.", "responseFormatId": "RF2" },
+                { "itemId": "Openness2_3", "itemStemText": "I will never get a COVID-19 vaccine.", "responseFormatId": "RF2" }
+               
+                
+            ]
+        }
+    ]
+}

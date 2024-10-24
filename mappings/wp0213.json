@@ -1,8 +1,8 @@
 {
     "_comment": "",
     "contentType": "self-report",
-    "datasetFilename": "example.parquet",
-    "datasetUrl": "https://www.rdocumentation.org/packages/psych/versions/2.3.3/topics/bfi",
+    "datasetFilename": "wp0213.parquet",
+    "datasetUrl": "https://osf.io/dh6vj/",
     "datasetIsbn": null,
     "datasetDoi": null,
     "datasetApaReference": null,

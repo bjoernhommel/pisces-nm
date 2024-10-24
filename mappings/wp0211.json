@@ -1,0 +1,127 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0211.parquet",
+    "datasetUrl": "https://osf.io/egcaj/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not at all",
+                "2": "Not really",
+                "3": "Not sure",
+                "4": "Mostly",
+                "5": "Completely"
+                
+            }
+        },
+        {
+            "responseFormatId": "RF2",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Can never be justified",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "can always be justified"
+                
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Religiously Motivated Moral Judgment",
+            "instrumentNameShort": "IPIP-BFI",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Hone, L. S., McCauley, T. G., Pedersen, E. J., Carter, E. C., & McCullough, M. E. (2021). The sex premium in religiously motivated moral judgment. Journal of personality and social psychology, 120(6), 1621.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Religiosity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "rel1", "rel2", "rel3", "rel4", "rel5", "rel6", "rel7" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Sexual morality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "mor1", "mor2", "mor3", "mor4", "mor5", "mor6", "mor7", "mor8", "mor9" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Cooperative morality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "mor10","mor11","mor12","mor13","mor14","mor15","mor16","mor17","mor18","mor19","mor20","mor21"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "rel1", "itemStemText": "How much do you believe in God?", "responseFormatId": "RF1" },
+                { "itemId": "rel2", "itemStemText": "How much do you believe in the scriptures and writings of your religion?", "responseFormatId": "RF1" },
+                { "itemId": "rel3", "itemStemText": "How much do you believe in the lessons taught by the founders of your religion?", "responseFormatId": "RF1" },
+                { "itemId": "rel4", "itemStemText": "How much do you believe in the lessons taught by the leaders of your religion?", "responseFormatId": "RF1" },
+                { "itemId": "rel5", "itemStemText": "How important are your religious beliefs in your daily life?", "responseFormatId": "RF1" },
+                { "itemId": "rel6", "itemStemText": "How often do you pray?", "responseFormatId": "RF1" },
+                { "itemId": "rel7", "itemStemText": "How often do you attend public religious activities or services?", "responseFormatId": "RF1" },
+                { "itemId": "mor1", "itemStemText": "Married men having an affair", "responseFormatId": "RF2" },
+                { "itemId": "mor2", "itemStemText": "A person under the legal age of consent having sex", "responseFormatId": "RF2" },
+                { "itemId": "mor3", "itemStemText": "Partners having oral sex when the partners are not in a serious relationship with each other or anyone else", "responseFormatId": "RF2" },
+                { "itemId": "mor4", "itemStemText": "Partners having sexual intercourse when the partners are not in a serious relationship with each other or anyone else", "responseFormatId": "RF2" },
+                { "itemId": "mor5", "itemStemText": "Partners having sexual intercourse when one of the partners is in a serious relationship with someone else", "responseFormatId": "RF2" },
+                { "itemId": "mor6", "itemStemText": "Homosexual activity", "responseFormatId": "RF2" },
+                { "itemId": "mor7", "itemStemText": "Using birth control", "responseFormatId": "RF2" },
+                { "itemId": "mor8", "itemStemText": "Aborting a recently conceived embryo", "responseFormatId": "RF2" },
+                { "itemId": "mor9", "itemStemText": "Getting divorced", "responseFormatId": "RF2" },
+                { "itemId": "mor10", "itemStemText": "Claiming government benefits to which one is not entitled", "responseFormatId": "RF2" },
+                { "itemId": "mor11", "itemStemText": "Avoiding a fare on public transportation", "responseFormatId": "RF2" },
+                { "itemId": "mor12", "itemStemText": "Cheating on taxes", "responseFormatId": "RF2" },
+                { "itemId": "mor13", "itemStemText": "Accepting a bribe in the course of one’s duties", "responseFormatId": "RF2" },
+                { "itemId": "mor14", "itemStemText": "Taking and driving away a car belonging to someone else", "responseFormatId": "RF2" },
+                { "itemId": "mor15", "itemStemText": "Lying in one’s own interest", "responseFormatId": "RF2" },
+                { "itemId": "mor16", "itemStemText": "Littering in a public place", "responseFormatId": "RF2" },
+                { "itemId": "mor17", "itemStemText": "Driving under the influence of alcohol", "responseFormatId": "RF2" },
+                { "itemId": "mor18", "itemStemText": "Paying cash for services to avoid taxes", "responseFormatId": "RF2" },
+                { "itemId": "mor19", "itemStemText": "Speeding in densely-populated areas", "responseFormatId": "RF2" },
+                { "itemId": "mor20", "itemStemText": "Buying something known to be stolen", "responseFormatId": "RF2" },
+                { "itemId": "mor21", "itemStemText": "Failing to report damage done accidentally to a parked vehicle", "responseFormatId": "R21" }
+               
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0206.parquet",
+    "datasetUrl": "https://osf.io/b89ng/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Perceived Moral Reproach Scale",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Rosenfeld, D. L., & Tomiyama, A. J. (2022). Jab my arm, not my morality: Perceived moral reproach as a barrier to COVID-19 vaccine uptake. Social Science & Medicine, 294, 114699.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Perceived Moral Reproach",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Reproach_1", "Reproach_2", "Reproach_3", "Reproach_4" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Reproach_1", "itemStemText": "Vaccinated people think that unvaccinated people are immoral.", "responseFormatId": "RF1" },
+                { "itemId": "Reproach_2", "itemStemText": "Vaccinated people morally judge unvaccinated people.", "responseFormatId": "RF1" },
+                { "itemId": "Reproach_3", "itemStemText": "Vaccinated people are self-righteous.", "responseFormatId": "RF1" },
+                { "itemId": "Reproach_4", "itemStemText": "Vaccinated people think that they are morally better than unvaccinated people.", "responseFormatId": "RF1" }
+               
+            ]
+        }
+    ]
+}

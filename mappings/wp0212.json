@@ -1,0 +1,83 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0212.parquet",
+    "datasetUrl": "https://osf.io/dh6vj/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Never",
+                "2": "Rarely",
+                "3": "Occasionally/Sometimes",
+                "4": "Frequently",
+                "5": "A lot / All the time"
+            }
+        } 
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Bullshitting frequency scale",
+            "instrumentNameShort": "BSF",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Littrell, S., Risko, E. F., & Fugelsang, J. A. (2021). The bullshitting frequency scale: Development and psychometric properties. British Journal of Social Psychology, 60(1), 248-270.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Persuasive bullshitting",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "BFS_4", "BFS_9", "BFS_10", "BFS_1", "BFS_19", "BFS_3", "BFS_2", "BFS_20" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Evasive bullshitting",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "BFS_20", "BFS_21", "BFS_22" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "BSF_4", "itemStemText": "When I want to impress the people or people I'm talking to", "responseFormatId": "RF1" },
+                { "itemId": "BSF_9", "itemStemText": "When I want others to see me as more intelligent or knowledgeable", "responseFormatId": "RF1" },
+                { "itemId": "BSF_3", "itemStemText": "When I know it will be easy to get away with it.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_19", "itemStemText": "When I'm trying to fit in better or be more accepted by the person or people I'm interacting with", "responseFormatId": "RF1" },
+                { "itemId": "BSF_2", "itemStemText": "When I want the thing(s) I'm talking about to sound more interesting or exciting", "responseFormatId": "RF1" },
+                { "itemId": "BSF_10", "itemStemText": "When I want to contribute to a conversation or discussion even though I'm not well-informed on the topic", "responseFormatId": "RF1" },
+                { "itemId": "BSF_1", "itemStemText": "By pretending to know more about a topic than I actually do", "responseFormatId": "RF1" },
+                { "itemId": "BSF_18", "itemStemText": "When I don'twant to tell someone what I really think", "responseFormatId": "RF1" },
+                { "itemId": "BSF_8", "itemStemText": "When being fully honest would be harmful or embarrassing to me or someone else", "responseFormatId": "RF1" },
+                { "itemId": "BSF_20", "itemStemText": " When I’m trying to persuade someone to change their mind or agree with what I’m saying.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_21", "itemStemText": "When a direct answer might get me in trouble.", "responseFormatId": "RF1" },
+                { "itemId": "BSF_22", "itemStemText": "When a direct answer would hurt another person's feelings.", "responseFormatId": "RF1" }
+               
+            ]
+        }
+    ]
+}

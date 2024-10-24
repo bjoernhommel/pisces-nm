@@ -1,0 +1,67 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0221.parquet",
+    "datasetUrl": "https://osf.io/5d6g8/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": "Disagree",
+                "3": "Slightly Disagree",
+                "4": "Neither agree nor disagree",
+                "5": "Slightly Agree",
+                "6": "Agree",
+                "7": "Strongly Agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Abbreviated Version of the Harmony in Life Scale ",
+            "instrumentNameShort": "HILS-3",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kjell, O. N., & Diener, E. (2021). Abbreviated three-item versions of the satisfaction with life scale and the harmony in life scale yield as strong psychometric properties as the original scales. Journal of Personality Assessment, 103(2), 183-194.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Harmony in Life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "HILS1", "HILS2", "HILS3" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "HILS1", "itemStemText": "My lifestyle allows me to be in harmony", "responseFormatId": "RF1" },
+                { "itemId": "HILS2", "itemStemText": "Most aspects of my life are in balance", "responseFormatId": "RF1" },
+                { "itemId": "HILS3", "itemStemText": "I am in harmony", "responseFormatId": "RF1" }
+              
+            ]
+        }
+    ]
+}
