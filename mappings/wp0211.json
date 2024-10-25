@@ -46,7 +46,7 @@
     "instruments": [
         {
             "instrumentName": "Religiously Motivated Moral Judgment",
-            "instrumentNameShort": "IPIP-BFI",
+            "instrumentNameShort": null,
             "instrumentLanguage": "en",
             "instrumentUrl": null,
             "instrumentIsbn": null,

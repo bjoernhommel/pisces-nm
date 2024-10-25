@@ -397,8 +397,8 @@ def validate_files(batched_paths, config, force_revalidation=False, confirm_prom
 
         mapping_ranges = (
             pd.merge(left=items, right=response_formats, on="responseFormatId")
-            .loc[:, ['responseFormatId', 'itemId', 'minValue', 'maxValue']]
-            .rename(columns={'minValue': 'minMappedValue', 'maxValue': 'maxMappedValue'})
+            .loc[:, ['responseFormatId', 'itemId', 'responseFormatMinValue', 'responseFormatMaxValue']]
+            .rename(columns={'responseFormatMinValue': 'minMappedValue', 'responseFormatMaxValue': 'maxMappedValue'})
             .assign(mappedRange=lambda df: df['maxMappedValue'] - df['minMappedValue'])
         )
 

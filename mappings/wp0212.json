@@ -40,7 +40,7 @@
                     "scaleName": "Persuasive bullshitting",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [ ],
-                    "upperItemIds": [ "BFS_4", "BFS_9", "BFS_10", "BFS_1", "BFS_19", "BFS_3", "BFS_2", "BFS_20" ],
+                    "upperItemIds": [ "BSF_4", "BSF_9", "BSF_10", "BSF_1", "BSF_19", "BSF_3", "BSF_2", "BSF_20" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null
@@ -49,7 +49,7 @@
                     "scaleName": "Evasive bullshitting",
                     "scaleDefinitionText": null,
                     "lowerItemIds": [  ],
-                    "upperItemIds": [ "BFS_20", "BFS_21", "BFS_22" ],
+                    "upperItemIds": [ "BSF_20", "BSF_21", "BSF_22" ],
                     "scaleLowerFeedbackText": null,
                     "scaleUpperFeedbackText": null,
                     "scaleFeedbackTexts": null

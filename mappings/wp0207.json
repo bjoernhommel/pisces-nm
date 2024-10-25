@@ -1,6 +1,6 @@
 {
     "_comment": "",
-    "contentType": "self-report",
+    "datasetContentType": "self-report",
     "datasetFilename": "wp0207.parquet",
     "datasetUrl": "https://osf.io/dh6vj/",
     "datasetIsbn": null,
@@ -11,11 +11,12 @@
         {
             "responseFormatId": "RF1",
             "responseFormatType": "rating scale",
-            "dataType": "integer",
-            "minValue": 1,
-            "maxValue": 5,
-            "incrementValue": 1,
-            "responseFormatLabels": {
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels":
+            {
                 "1": "Never",
                 "2": "Rarely",
                 "3": "Occasionally/Sometimes",
