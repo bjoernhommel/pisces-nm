@@ -1,0 +1,133 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0232.parquet",
+    "datasetUrl": "https://osf.io/rnxgu/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 6,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": "Disagree",
+                "3": "Somewhat disagree",
+                "4": "Somewhat agree",
+                "5": "Agree",
+                "6": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Good lives Questionnaire",
+            "instrumentNameShort": "GLQ",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Harper, C. A., Lievesley, R., Blagden, N., Akerman, G., Winder, B., & Baumgartner, E. (2021). Development and validation of the Good Lives Questionnaire. Psychology, Crime & Law, 27(7), 678-703.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Inner Peace",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "GLQ_90"],
+                    "upperItemIds": [ "GLQ_87", "GLQ_85", "GLQ_59", "GLQ_86", "GLQ_10", "GLQ_55", "GLQ_50", "GLQ_18", "GLQ_6" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Energy and Angency",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "GLQ_32","GLQ_31", "GLQ_34", "GLQ_3", "GLQ_14", "GLQ_20" ],
+                    "upperItemIds": [ "GLQ_14", "GLQ_49" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Social Connectedness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "GLQ_70", "GLQ_76", "GLQ_61", "GLQ_73", "GLQ_74" ],
+                    "upperItemIds": [ "GLQ_71" , "GLQ_68", "GLQ_67" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Varied Leisure Actiities",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["GLQ_98"], 
+                    "upperItemIds": [ "GLQ_33" , "GLQ_95" , "GLQ_29", "GLQ_30" , "GLQ_36"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Spirituality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "GLQ_80" ],
+                    "upperItemIds": ["GLQ_84" , "GLQ_78" , "GLQ_79" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "GLQ_87", "itemStemText": "I like my life", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_85", "itemStemText": "I am content with my current situation", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_59", "itemStemText": "I am at peace with myself", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_86", "itemStemText": "I am a happy person", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_10", "itemStemText": "I’ve been pretty successful in life", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_55", "itemStemText": "I can deal with stress effectively", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_50", "itemStemText": "I have the confidence to make my own way in the world", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_18", "itemStemText": "I am mentally strong", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_6", "itemStemText": "I can think of many ways to get the things in life that are important to me ", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_90", "itemStemText": "I feel sad when I think about my life ", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_32", "itemStemText": "I wish I could develop more interests", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_34", "itemStemText": "I find myself being bored quite often", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_3", "itemStemText": "I feel tired most of the time", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_31", "itemStemText": "I struggle to find things to do in my free time", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_20", "itemStemText": "I struggle with my physical health", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_14", "itemStemText": "I am unhealthy", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_49", "itemStemText": "I wish I could make more of my own decisions", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_70", "itemStemText": "I distance myself from others in the community", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_74", "itemStemText": "I do not feel part of my community", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_71", "itemStemText": "I feel like I am part of a group", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_61", "itemStemText": "I do not have many friends", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_76", "itemStemText": "I do not like to get involved with my local community", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_68", "itemStemText": "I have supportive friends ", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_67", "itemStemText": "I have a wide social circle ", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_73", "itemStemText": "I do not share the same values as the rest of my community", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_33", "itemStemText": "I have lots of interests", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_95", "itemStemText": "I like to try new things", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_29", "itemStemText": "I have hobbies", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_30", "itemStemText": "I regularly participate in different activities", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_36", "itemStemText": "I am always occupied with an interest or hobby", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_98", "itemStemText": "I am not creative", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_84", "itemStemText": "I am a spiritual person", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_80", "itemStemText": "I am not spiritual", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_78", "itemStemText": "I have trust in a higher power", "responseFormatId": "RF1" },
+                { "itemId": "GLQ_79", "itemStemText": "I have a strong spiritual bond with the rest of humankind ", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

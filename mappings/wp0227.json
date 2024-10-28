@@ -1,0 +1,122 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0227.parquet",
+    "datasetUrl": "https://osf.io/t38wr/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Least Important",
+                "2": null,
+                "3": null,
+                "4": "Moderately Important",
+                "5": null,
+                "6": null,
+                "7": "Most important"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Motivations to Eat Meat Inventory ",
+            "instrumentNameShort": "MEMI Beta",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Hopwood, C. J., Piazza, J., Chen, S., & Bleidorn, W. (2021). Development and validation of the motivations to Eat Meat Inventory. Appetite, 163, 105210.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Natural",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "MEMI01",  "MEMI21"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Normal",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "MEMI03",  "MEMI07",  "MEMI11",  "MEMI15",  "MEMI19"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Necessary",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "MEMI02",  "MEMI06",  "MEMI10",  "MEMI14",  "MEMI18"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Nice",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "MEMI04",  "MEMI08",  "MEMI12",  "MEMI16",  "MEMI20"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "MEMI01", "itemStemText": "It goes against nature to eat only plants.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI02", "itemStemText": "Our bodies need the protein.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI03", "itemStemText": "I want to fit in.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI04", "itemStemText": "It is delicious.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI05", "itemStemText": "It is natural.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI06", "itemStemText": "Vegetarians are less healthy.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI07", "itemStemText": "I don’t want other people to be uncomfortable.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI08", "itemStemText": "I would miss out on too much pleasure if I didn’t eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI09", "itemStemText": "It connects humans to the environment.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI10", "itemStemText": "The human body was made that way.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI11", "itemStemText": "Otherwise meals can be awkward.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI12", "itemStemText": "It is in all the best tasting food.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI13", "itemStemText": "Our ancestors did it.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI14", "itemStemText": "It makes people strong and vigorous.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI15", "itemStemText": "Everybody does it.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI16", "itemStemText": "I don’t want to eat boring food.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI17", "itemStemText": "If it was good enough for cavepeople it is good enough for me.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI18", "itemStemText": "It is necessary for good health.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI19", "itemStemText": "It is part of our society.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI20", "itemStemText": "It gives me pleasure.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI21", "itemStemText": "It would be unnatural not to eat meat.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI22", "itemStemText": "I want to be sure I get all of the vitamins and minerals I need.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI23", "itemStemText": "Not doing it is a little strange.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI24", "itemStemText": "I just like it.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI25", "itemStemText": "It is an essential part of harmony with the ecosystem.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI26", "itemStemText": "It gives me strength and endurance.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI27", "itemStemText": "It is a normal thing to do.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI28", "itemStemText": "It has good flavor.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI29", "itemStemText": "It is just one of the things people do.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI30", "itemStemText": "It is too risky for my body not to.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI31", "itemStemText": "I don’t want to stand out.", "responseFormatId": "RF1" },
+                { "itemId": "MEMI32", "itemStemText": "Meals without it don’t taste good.", "responseFormatId": "RF1" }
+           ]
+        }
+    ]
+}
