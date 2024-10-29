@@ -1,0 +1,140 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0244.parquet",
+    "datasetUrl": "https://osf.io/h5mq9/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not Good At All",
+                "2": "OK",
+                "3": "Good",
+                "4": "Very Good"
+            }
+        },
+        {
+            "responseFormatId": "RF2",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "I don´t like it.",
+                "2": "It´s OK.",
+                "3": "I like it.",
+                "4": "I love it."
+            }
+        },
+        {
+            "responseFormatId": "RF3",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not at all",
+                "2": "A little bit",
+                "3": "Sometimes",
+                "4": "A lot"
+            }
+        },
+        {
+            "responseFormatId": "RF4",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not at all important",
+                "2": "A little bit important",
+                "3": "Fairly important",
+                "4": "Very important"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Math attitude questionnaire",
+            "instrumentNameShort": "MAQ",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Sidney, P. G., Thompson, C. A., Fitzsimmons, C., & Taber, J. M. (2021). Children’s and adults’ math attitudes are differentiated by number type. The Journal of Experimental Education, 89(1), 1-32.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "general attitudes",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Good_Math_1", "Like_Math_1", "Math_daily_1", "Math_think_1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Fraction attitudes",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Good_Math_3", "Good_Math_5", "Like_Math_3", "Like_Math_5", "Math_daily_3", "Math_daily_5", "Math_think_3", "Math_think_5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "whole-numbers attitudes",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "Good_Math_2", "Good_Math_4", "Like_Math_2", "Like_Math_4", "Math_daily_2", "Math_daily_4", "Math_think_2", "Math_think_4" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Good_Math_1", "itemStemText": "How good are you at math?", "responseFormatId": "RF1" },
+                { "itemId": "Good_Math_2", "itemStemText": "How good are you at thinking about how big whole numbers (numbers like 34 or 57) are?", "responseFormatId": "RF1" },
+                { "itemId": "Good_Math_3", "itemStemText": "How good are you at thinking about how big fractions (numbers like 3/4 and 5/7) are?", "responseFormatId": "RF1" },
+                { "itemId": "Good_Math_4", "itemStemText": "How good are you at solving math problems with whole numbers (numbers like 34 and 57) in them?", "responseFormatId": "RF1" },
+                { "itemId": "Good_Math_5", "itemStemText": "How good are you at solving math problems with whole fractions (numbers like 3/4 and 5/7) in them?", "responseFormatId": "RF1" },
+                { "itemId": "Like_Math_1", "itemStemText": "How much do you like math?", "responseFormatId": "RF2" },
+                { "itemId": "Like_Math_2", "itemStemText": "How much do you like thinking [learning] about problems with whole numbers (numbers like 34 and 57) in them?", "responseFormatId": "RF2" },
+                { "itemId": "Like_Math_3", "itemStemText": "How much do you like thinking [learning] about problems with fractions (numbers like 3/4 and 5/7) in them?", "responseFormatId": "RF2" },
+                { "itemId": "Like_Math_4", "itemStemText": "How much do you like solving problems with whole numbers (numbers like 34 and 57) in them?", "responseFormatId": "RF2" },
+                { "itemId": "Like_Math_5", "itemStemText": "How much do you like solving problems with fractions (numbers like 3/4 and 5/7) in them?", "responseFormatId": "RF2" },
+                { "itemId": "Math_daily_1", "itemStemText": "How often do you use or think about numbers each day [outside of school]?", "responseFormatId": "RF3" },
+                { "itemId": "Math_daily_2", "itemStemText": "How often do you use or think about whole numbers (numbers like 34 or 57) in your job [outside of school]?", "responseFormatId": "RF3" },
+                { "itemId": "Math_daily_3", "itemStemText": "How often do you use or think about fractions (numbers like 3/4 and 5/7) in your job [outside of school]?", "responseFormatId": "RF3" },
+                { "itemId": "Math_daily_4", "itemStemText": "How often do you [think you will] use or think about whole numbers (numbers like 34 or 57) in your daily activities, outside of work [as an adult]?", "responseFormatId": "RF3" },
+                { "itemId": "Math_daily_5", "itemStemText": "How often do you [think you will] use or think about fractions (numbers like 3/4 and 5/7) in your daily activities, outside of work [as an adult]?", "responseFormatId": "RF3" },
+                { "itemId": "Math_think_1", "itemStemText": "How important is it to be accurate when doing math in your daily life?", "responseFormatId": "RF" },
+                { "itemId": "Math_think_2", "itemStemText": "How important is understanding math with whole numbers (numbers like 34 and 57) for being exactly accurate when doing math in your daily life?", "responseFormatId": "RF4" },
+                { "itemId": "Math_think_3", "itemStemText": "How important is understanding math with fractions (numbers like 3/4 and 5/7 ) for being exactly accurate when doing math in your daily life?", "responseFormatId": "RF4" },
+                { "itemId": "Math_think_4", "itemStemText": "How important is understanding math with whole numbers (numbers like 34 and 57) for estimating when doing math in your daily life?", "responseFormatId": "RF4" },
+                { "itemId": "Math_think_5", "itemStemText": "How important is understanding math with fractions (numbers like 3/4 and 5/7) for estimating when doing math in your daily life?", "responseFormatId": "RF4" }
+           ]
+        }
+    ]
+}
