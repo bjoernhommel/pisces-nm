@@ -1,0 +1,81 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0246.parquet",
+    "datasetUrl": "https://osf.io/cdbzg/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": "Disagree",
+                "3": "Somewhat agree",
+                "4": "Agree",
+                "5": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Problematic Smartphone Use and Technology Concern",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Horwood, S., Anglim, J., & Mallawaarachchi, S. R. (2021). Problematic smartphone use in a large nationally representative sample: Age, reporting biases, and technology concerns. Computers in Human Behavior, 122, 106848.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Problematic Smartphone Use",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "q1","q3","q5","q6","q8","q13","q14" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Technology Concern",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "q15","q16","q17","q18" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "q1", "itemStemText": "I spend too much time on my smartphone", "responseFormatId": "RF1" },
+                { "itemId": "q3", "itemStemText": "I use my smartphone even if I have more important things to do", "responseFormatId": "RF1" },
+                { "itemId": "q5", "itemStemText": "I find it difficult to switch off my smartphone", "responseFormatId": "RF1" },
+                { "itemId": "q6", "itemStemText": "I feel anxious if I don't have my smartphone", "responseFormatId": "RF1" },
+                { "itemId": "q8", "itemStemText": "When I am not using my smartphone, I keep thinking about it", "responseFormatId": "RF1" },
+                { "itemId": "q13", "itemStemText": "My friends or family complain that I use my smartphone too much", "responseFormatId": "RF1" },
+                { "itemId": "q14", "itemStemText": "Sometimes my smartphone stresses me out", "responseFormatId": "RF1" },
+                { "itemId": "q15", "itemStemText": "Overusing smartphones can have a negative impact on people's wellbeing", "responseFormatId": "RF1" },
+                { "itemId": "q16", "itemStemText": "Mobile devices can have a negative impact on children", "responseFormatId": "RF1" },
+                { "itemId": "q17", "itemStemText": "Technology companies design their products to be addictive", "responseFormatId": "RF1" },
+                { "itemId": "q18", "itemStemText": "Many people are concerned about technology companies collecting and using their personal data", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
