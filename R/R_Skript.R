@@ -13,12 +13,13 @@ data_path = file.path(this_dir, "../data")
 mappings_path = file.path(this_dir, "../mappings")
 
 # Daten einlesen (je nach Dateiformat) --> auf Namen achten!!
-data <- readr::read_csv("../../pisces-nm/Studies-1-5.csv") # für normale .csv-Dateien
-data <- read_excel("../../pisces-nm/Datasets.xlsx")
+data <- readr::read_csv("../../pisces-nm/data/ccases.csv") # für normale .csv-Dateien
+data <- read_excel("../../pisces-nm/data/Psychosocial_Burden_Accessing_Abortion_Biggs_2020.xls")
 data <- read.table("../../pisces-nm/Studies-1-5.csv", header = TRUE, sep = ";") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
-data <- haven::read_sav("../../pisces-nm/BSF Study 1 - validation.sav") # für .sav-Dateien (aus SPSS)
+data <- haven::read_sav("../../pisces-nm/data/Data- Mating Market, Sex, Age, and Income Effects on Socio-political Orientation.sav") # für .sav-Dateien (aus SPSS)
 load("../../Backlog_digital/IPP31/IPP_complete.RData") # für .RData
 load("../../BehavioralTextMining/dat_tx.Rda") # für .Rda
+data <- read.table("../../pisces-nm/data/Study 2 Data.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 
 # Check the structure of the data frame
@@ -30,8 +31,6 @@ data <- read.table("../../BehavioralTextMining/data study 1.dat", header = TRUE,
 labels <- map_chr(data[,1:195], ~attr(.x, "label")) %>%  bind_cols(names = names(data[,1:195]), question = .)
 write.csv(labels, "../../BehavioralTextMining/labels.csv")
 colnames(data)
-
-# Spaltenüberschriften extrahieren
 spalten_ueberschriften <- data.frame(Überschrift = names(data))
 
 # Tabelle anzeigen
@@ -40,6 +39,8 @@ spalten_ueberschriften <- data.frame(
   Überschrift = names(data),
   stringsAsFactors = FALSE
 )
+# Spaltenüberschriften extrahieren
+
 
 # Aufteilen der Spaltenüberschriften in Haupt- und Unterüberschriften
 spalten_ueberschriften <- spalten_ueberschriften %>%

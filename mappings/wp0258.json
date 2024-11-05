@@ -1,0 +1,238 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0258.parquet",
+    "datasetUrl": "https://osf.io/42jhr/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Nie",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "Immer"
+            }
+        },
+        {
+            "responseFormatId": "RF2",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Gar nicht",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "Sehr"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Assessment of Gender-Related Attributes (German version)-Personality",
+            "instrumentNameShort": "GERAS-P",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Gruber, F. M., Distlberger, E., Scherndl, T., Ortner, T. M., & Pletzer, B. (2019). Psychometric properties of the multifaceted gender-related attributes survey (GERAS). European Journal of Psychological Assessment.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Risk-taking",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "pers_m_p_mutig", "pers_m_p_abenteuerlustig", "pers_m_n_waghalsig", "pers_m_neut_risikofreudig"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Assertiveness",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "pers_m_n_dominant", "pers_m_n_beherrschend", "pers_m_n_prahlerisch" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Rationality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "pers_m_neut_rational", "pers_m_neut_analytisch", "pers_m_p_pragmatisch" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Expressivity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "pers_w_p_warmherzig", "pers_w_p_liebevoll", "pers_w_p_fürsorglich","pers_w_p_mitfühlend", "pers_w_p_feinfühlig", "pers_w_p_zärtlich"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Neuroticism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "pers_w_n_ängstlich", "pers_w_neut_vorsichtig", "pers_w_n_empfindlich"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Spatial",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "kogn_m_neue_Adresse_finden", "kogn_m_Weg_wiederfinden", "kogn_m_Wegbeschreibung_befolgen"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Numerical",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "kogn_m_Gleichungen_lösen", "kogn_m_Alltagsberechnungen", "kogn_m_Formeln_verstehen", "kogn_m_Computerprogramm_schreiben"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Verbal",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "kogn_w_text_formulieren", "kogn_w_Synonyme_finden", "kogn_w_richtige_Worte_finden", "kogn_w_Fremdwörter_erklären"] ,
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Memory",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "kogn_w_kl_Veränderungen_bemerken", "kogn_w_Namen_Gesichter_merken", "kogn_w_Ereignisse_eigenes_Leben_erinnern"] ,
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Interests Scoial Masculine",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Akt_m_Actionfilme", "Akt_m_Paintball", "Akt_m_Bier", "Akt_m_Cartfahren", "Akt_m_Kartenspiel"] ,
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Interests Social Feminine",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Akt_w_Shopping", "Akt_w_Tratschen", "Akt_w_Telefonieren", "Akt_w_Liebesfilme"] ,
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Interests Sport Masculine",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["Akt_m_Sportsendungen", "Akt_m_Sport", "Akt_m_Fitnessstudio"] ,
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Interests Sport Feminine",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": ["Akt_w_Rythm_Gym", "Akt_w_Yoga", "Akt_w_Standardtanzen", "Akt_w_Spazieren"] ,
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "pers_w_p_mitfühlend", "itemStemText": "mitfühlend", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_p_liebevoll", "itemStemText": "liebevoll", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_p_familienbezogen", "itemStemText": "familienbezogen", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_p_warmherzig", "itemStemText": "warmherzig", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_n_ängstlich", "itemStemText": "ängstlich", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_n_dominant", "itemStemText": "dominant", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_n_prahlerisch", "itemStemText": "prahlerisch", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_neut_risikofreudig", "itemStemText": "neut_risikofreudig", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_neut_rational", "itemStemText": "neut_rational", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_p_abenteuerlustig", "itemStemText": "abenteuerlustig", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_p_zärtlich", "itemStemText": "zärtlich", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_neut_vorsichtig", "itemStemText": "neut_vorsichtig", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_p_fürsorglich", "itemStemText": "fürsorglich", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_n_empfindlich", "itemStemText": "empfindlich", "responseFormatId": "RF1" },
+                { "itemId": "pers_w_p_feinfühlig", "itemStemText": "feinfühlig", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_p_mutig", "itemStemText": "mutig", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_n_beherrschend", "itemStemText": "beherrschend", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_neut_analytisch", "itemStemText": "neut_analytisch", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_p_pragmatisch", "itemStemText": "pragmatisch", "responseFormatId": "RF1" },
+                { "itemId": "pers_m_n_waghalsig", "itemStemText": "waghalsig", "responseFormatId": "RF1" },
+                { "itemId": "kogn_m_Computerprogramm_schreiben", "itemStemText": "Ein Computerprogramm zu schreiben", "responseFormatId": "RF2" },
+                { "itemId": "kogn_m_neue_Adresse_finden", "itemStemText": "Erstmals zu einer Adresse zu finden", "responseFormatId": "RF2" },
+                { "itemId": "kogn_m_Wegbeschreibung_befolgen", "itemStemText": "Wegbeschreibungen zu befolgen", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_Namen_Gesichter_merken", "itemStemText": "Sich Namen und Gesichter zu merken", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_richtige_Worte_finden", "itemStemText": "Die richtigen Worte zu finden, um einen bestimmten Inhalt auszudrücken", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_text_formulieren", "itemStemText": "Texte zu formulieren", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_Synonyme_finden", "itemStemText": "Synonyme für ein Wort zu finden, um Wiederholungen zu vermeiden", "responseFormatId": "RF2" },
+                { "itemId": "kogn_m_Gleichungen_lösen", "itemStemText": "Gleichungen zu lösen", "responseFormatId": "RF2" },
+                { "itemId": "kogn_m_Alltagsberechnungen", "itemStemText": "Berechnungen im Alltag anzustellen", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_Fremdwörter_erklären", "itemStemText": "Fremdwörter zu erklären", "responseFormatId": "RF2" },
+                { "itemId": "kogn_m_Formeln_verstehen", "itemStemText": "Formeln zu verstehen", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_kl_Veränderungen_bemerken", "itemStemText": "Kleine Veränderungen zu bemerken", "responseFormatId": "RF2" },
+                { "itemId": "kogn_w_Ereignisse_eigenes_Leben_erinnern", "itemStemText": "Sich an Ereignisse aus Ihrem eigenen Leben zu erinnern ", "responseFormatId": "RF2" },
+                { "itemId": "kogn_m_Weg_wiederfinden", "itemStemText": "Einen Weg, den Sie schon einmal gegangen sind, wiederzufinden", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Yoga", "itemStemText": "Yoga", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Sportsendungen", "itemStemText": "Sportsendungen ansehen (Boxen, Formel 1, Ballsportarten...)", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Sport", "itemStemText": "Bestimmte Sportarten betreiben (Fußball, Basketball, Handball, etc.)", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Rythm_Gym", "itemStemText": "Rhythmische Sportgymnastik", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Spazieren", "itemStemText": "Spazierengehen", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Standardtanzen", "itemStemText": "Tanzen (klassische Standardtänze, Ballett, Latin, Ausdruckstanz etc.)", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Shopping", "itemStemText": "Shopping", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Actionfilme", "itemStemText": "Action Filme schauen", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Telefonieren", "itemStemText": "Mit FreundInnen telefonieren", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Paintball", "itemStemText": "Paintball", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Cartfahren", "itemStemText": "Cartfahren", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Liebesfilme", "itemStemText": "Liebesfilme sehen", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Fitnessstudio", "itemStemText": "Fitnessstudio (Gewichtheben, 'pumpen')", "responseFormatId": "RF2" },
+                { "itemId": "Akt_w_Tratschen", "itemStemText": "Tratschen", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Bier", "itemStemText": "Bier trinken /saufen gehen", "responseFormatId": "RF2" },
+                { "itemId": "Akt_m_Kartenspiel", "itemStemText": "Kartenspielen (Pokern)", "responseFormatId": "RF2" }
+            ]
+        }
+    ]
+}

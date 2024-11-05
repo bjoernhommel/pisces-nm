@@ -1,0 +1,119 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0263.parquet",
+    "datasetUrl": "https://osf.io/s2e3g/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Sociopolitical Attitudes",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Luberti, F. R., Blake, K. R., & Brooks, R. C. (2020). The effects of the mating market, sex, age, and income on sociopolitical orientation: insights from evolutionary theory and sexual economics theory. Human Nature, 31(1), 88-111.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Sociosexuality",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statement_1_REVERSED"],
+                    "upperItemIds": [ "Statement_4", "Statement_5","Statement_3","Statement_2","Statement_13"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Benevolent Sexism",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["Statement_8_REVERSED","Statement_9_REVERSED", "Statement_10_REVERSED" ],
+                    "upperItemIds": [  ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Wealth Redistribution",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "Statement_18", "Statement_20"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Nonconforming Behaviors",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["Statement_17","Statement_16","Statement_12","Statement_11","Statement_19"],
+                    "upperItemIds": [ ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Traditional Family Values",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "Statement_14_REVERSED", "Statement_7_REVERSED", "Statement_6_REVERSED"],
+                    "upperItemIds": [ ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "Statement_4", "itemStemText": "I can imagine myself being comfortable and enjoying “casual” sex with different partners.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_5", "itemStemText": "Sex without love is OK.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_3", "itemStemText": "It is fine for a man to have sex with a woman he has just met, if they both want to.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_2", "itemStemText": "It is fine for a woman to have sex with a man she has just met, if they both want to.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_1_REVERSED", "itemStemText": "A woman should never have sex with a man she is not in love with.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_13", "itemStemText": "There is nothing wrong with prostitution.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_8_REVERSED", "itemStemText": "Men should cherish and protect women.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_9_REVERSED", "itemStemText": "Men should sacrifice to provide for women.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_10_REVERSED", "itemStemText": "Men should be ready to accept the financial responsibility for a date.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_18", "itemStemText": "The minimum wage should be raised.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_20", "itemStemText": "The government should adopt a policy to guarantee health care to all workers and their families.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_15", "itemStemText": "People are often happy without long-term heterosexual romance.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_17", "itemStemText": "Lesbian women should have the same rights as heterosexual couples to marry and have children.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_16", "itemStemText": "Gay men should have the same rights as heterosexual couples to marry and have children.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_12", "itemStemText": "Female masturbation is normal and acceptable.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_11", "itemStemText": "Male masturbation is normal and acceptable.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_19", "itemStemText": "Marijuana should be legalized.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_14_REVERSED", "itemStemText": "The primary goal of sexual intercourse should be to have children.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_7_REVERSED", "itemStemText": "There is something strange about a woman who doesn’t want to marry and raise a family.", "responseFormatId": "RF1" },
+                { "itemId": "Statement_6_REVERSED", "itemStemText": "A woman should be a virgin when she marries.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

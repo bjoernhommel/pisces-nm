@@ -1,0 +1,113 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0264.parquet",
+    "datasetUrl": "https://datadryad.org/stash/dataset/doi:10.7272/Q6X63K6C",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 3,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "Not at all difficult",
+                "1": "A little bit difficult",
+                "2": "Somewhat difficult",
+                "3": "Very difficult"
+            }
+        },
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 3,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "Not at all",
+                "1": "A little bit ",
+                "2": "Somewhat ",
+                "3": "Very much"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Psychosocial Burden Seeking Abortion Scale",
+            "instrumentNameShort": "PB-SAS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Biggs, M. A., Neilands, T. B., Kaller, S., Wingo, E., & Ralph, L. J. (2020). Developing and validating the psychosocial burden among people seeking abortion scale (PB-SAS). PloS one, 15(12), e0242463.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Structual Barriers",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "How difficult finding a place","How difficult sheduling an appointment", "How difficult traveling to a place for care", "How difficult amount of time trying to obtain care"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Pregnancy decision-making",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "How difficult deciding whether to end this pregnancy", "How difficult thinking I have to end this pregnancy", "Felt worried ending a potential life"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Lack of autonomy",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "Felt forced to tell people that I was pregnant", "Felt forced to tell people that I was  ending this pregnancy", "Felt forced to wait to end this pregnancy after I had made a decision"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Others´ reactions",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "How worried about parents' reaction", "How worried about friends other family members' reaction"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "How difficult finding a place", "itemStemText": "How difficult the following have been for you finding a place to obtain care to end this pregnancy", "responseFormatId": "RF1" },
+                { "itemId": "How difficult sheduling an appointment", "itemStemText": "How difficult the following have been for you scheduling an appointment to end this pregnancy", "responseFormatId": "RF1" },
+                { "itemId": "How difficult traveling to a place for care", "itemStemText": "How difficult the following have been for you traveling to a place to obtain care to end this pregnancy", "responseFormatId": "RF1" },
+                { "itemId": "How difficult amount of time trying to obtain care", "itemStemText": "How difficult the following have been for you the amount of time I have spent trying to obtain care to end this pregnancy", "responseFormatId": "RF1" },
+                { "itemId": "How difficult deciding whether to end this pregnancy", "itemStemText": "How difficult the following have been for you deciding whether to end this pregnancy ", "responseFormatId": "RF1" },
+                { "itemId": "How difficult thinking I have to end this pregnancy", "itemStemText": "How difficult the following have been for you thinking I have to end this pregnancy", "responseFormatId": "RF1" },
+                { "itemId": "Felt worried ending a potential life", "itemStemText": "How you have felt, when thinking about the following: I felt worried that I’m ending a potential life ", "responseFormatId": "RF2" },
+                { "itemId": "Felt forced to tell people that I was pregnant", "itemStemText": "How you have felt, when thinking about the following: I felt forced to tell people that I was pregnant", "responseFormatId": "RF2" },
+                { "itemId": "Felt forced to tell people that I was  ending this pregnancy", "itemStemText": "How you have felt, when thinking about the following: I felt forced to tell people that I was considering ending this pregnancy", "responseFormatId": "RF2" },
+                { "itemId": "Felt forced to wait to end this pregnancy after I had made a decision", "itemStemText": "How you have felt, when thinking about the following: I felt forced to wait to end this pregnancy after I had made a decision ", "responseFormatId": "RF2" },
+                { "itemId": "How worried about parents' reaction", "itemStemText": "How you have felt, when thinking about the following: I felt worried about my parent(s)’ or guardian(s)' reaction to the pregnancy ", "responseFormatId": "RF2" },
+                { "itemId": "How worried about friends other family members' reaction", "itemStemText": "How you have felt, when thinking about the following: I felt worried about my friends’ or other family members’ reaction to the pregnancy ", "responseFormatId": "RF2" }
+            ]
+        }
+    ]
+}
