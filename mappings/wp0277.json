@@ -1,0 +1,69 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0277.parquet",
+    "datasetUrl": "https://osf.io/aef75/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disgree",
+                "2": "Disagree",
+                "3": "Somewhat disagree",
+                "4": "Neither agree or disagree",
+                "5": "Somewhat agree",
+                "6": "Agree",
+                "7": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Food waste concerns",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Sheen, F., Hardman, C. A., & Robinson, E. (2020). Food waste concerns, eating behaviour and body weight. Appetite, 151, 104692.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Food waste concerns",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  "T1_FWCQ1_rev",  "T1_FWCQ5_rev" ],
+                    "upperItemIds": [  "T1_FWCQ2", "T1_FWCQ3", "T1_FWCQ4" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "T1_FWCQ1_rev", "itemStemText": "It is fine for food to go to waste sometimes.", "responseFormatId": "RF1" },
+                { "itemId": "T1_FWCQ2", "itemStemText": "It is morally wrong to waste food.", "responseFormatId": "RF1" },
+                { "itemId": "T1_FWCQ3", "itemStemText": "I cannot stand throwing food away.", "responseFormatId": "RF1" },
+                { "itemId": "T1_FWCQ4", "itemStemText": "Even if I felt full, I would rather finish what is on my plate than see it go to waste.", "responseFormatId": "RF1" },
+                { "itemId": "T1_FWCQ5_rev", "itemStemText": "It can be acceptable to waste food.", "responseFormatId": "RF1" }
+                
+            ]
+        }
+    ]
+}

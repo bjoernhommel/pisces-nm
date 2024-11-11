@@ -1,0 +1,91 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0278.parquet",
+    "datasetUrl": "https://osf.io/aef75/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Only at mealtimes",
+                "2": "Sometimes between meals",
+                "3": "Often between meals",
+                "4": "Almost always"
+            }
+        },
+        {
+            "responseFormatId": "RF2",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Easy",
+                "2": "Slightly difficult",
+                "3": "Moderately difficult",
+                "4": "Very difficult"
+            }
+        },
+        {
+            "responseFormatId": "RF3",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Almost never",
+                "2": "Seldom",
+                "3": "At least once a week",
+                "4": "Almost every day"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Three Facotr eating Questionnaire - Hunger",
+            "instrumentNameShort": "TFEQ - hunger",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Sheen, F., Hardman, C. A., & Robinson, E. (2020). Food waste concerns, eating behaviour and body weight. Appetite, 151, 104692.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Hunger",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "T1_HungerQ12", "T1_HungerQ13", "T1_HungerQ14"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "T1_HungerQ12", "itemStemText": "How often do you feel hungry?", "responseFormatId": "RF1" },
+                { "itemId": "T1_HungerQ13", "itemStemText": "How difficult would it be for you to stop eating halfway through dinner and not eat for the next four hours?", "responseFormatId": "RF2" },
+                { "itemId": "T1_HungerQ14", "itemStemText": "How frequently do you skip dessert because you are no longer hungry?", "responseFormatId": "RF3" }
+            ]
+        }
+    ]
+}

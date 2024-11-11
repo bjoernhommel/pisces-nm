@@ -16,7 +16,10 @@ mappings_path = file.path(this_dir, "../mappings")
 data <- readr::read_csv("../../pisces-nm/data/ccases.csv") # für normale .csv-Dateien
 data <- read_excel("../../pisces-nm/data/Psychosocial_Burden_Accessing_Abortion_Biggs_2020.xls")
 data <- read.table("../../pisces-nm/Studies-1-5.csv", header = TRUE, sep = ";") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
-data <- haven::read_sav("../../pisces-nm/data/Data- Mating Market, Sex, Age, and Income Effects on Socio-political Orientation.sav") # für .sav-Dateien (aus SPSS)
+data <- haven::read_sav("../../pisces-nm/data/Number Symbol Dataset.sav") # für .sav-Dateien (aus SPSS)
+library(foreign)
+
+data <- read.spss("C:/Users/nanam/Arbeit/New_validation/pisces-nm/data/Number Symbol Dataset.sav", to.data.frame = TRUE)
 load("../../Backlog_digital/IPP31/IPP_complete.RData") # für .RData
 load("../../BehavioralTextMining/dat_tx.Rda") # für .Rda
 data <- read.table("../../pisces-nm/data/Study 2 Data.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
@@ -49,7 +52,57 @@ spalten_ueberschriften <- spalten_ueberschriften %>%
 # Tabelle anzeigen
 print(spalten_ueberschriften)
 
+#Umwandeln von chr zu numeric
 
+difficulty_mapping <- c(
+  "Not at all" = 0,
+  "A little bit" = 1,
+  "Somewhat" = 2,
+  "Very" = 3
+)
+
+# Umkodieren der spezifischen Spalte
+data$`How difficult finding a place` <- as.numeric(recode(data$`How difficult finding a place`, !!!difficulty_mapping))
+
+difficulty_mapping <- c(
+  "Not at all" = 0,
+  "A little bit" = 1,
+  "Somewhat" = 2,
+  "Very" = 3
+)
+
+# Umkodieren der spezifischen Spalte
+data$`How difficult sheduling an appointment` <- as.numeric(recode(data$`How difficult sheduling an appointment`, !!!difficulty_mapping))
+
+# Umkodieren der spezifischen Spalte
+data$`How difficult traveling to a place for care` <- as.numeric(recode(data$`How difficult traveling to a place for care`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`How difficult amount of time trying to obtain care` <- as.numeric(recode(data$`How difficult amount of time trying to obtain care`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`How difficult deciding whether to end this pregnancy` <- as.numeric(recode(data$`How difficult deciding whether to end this pregnancy`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`How difficult thinking I have to end this pregnancy` <- as.numeric(recode(data$`How difficult thinking I have to end this pregnancy`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`Felt worried ending a potential life` <- as.numeric(recode(data$`Felt worried ending a potential life`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`Felt forced to tell people that I was pregnant` <- as.numeric(recode(data$`Felt forced to tell people that I was pregnant`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`Felt forced to tell people that I was  ending this pregnancy` <- as.numeric(recode(data$`Felt forced to tell people that I was  ending this pregnancy`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`Felt forced to wait to end this pregnancy after I had made a decision` <- as.numeric(recode(data$`Felt forced to wait to end this pregnancy after I had made a decision`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`How worried about parents' reaction` <- as.numeric(recode(data$`How worried about parents' reaction`, !!!difficulty_mapping))
+# Umkodieren der spezifischen Spalte
+data$`How worried about friends other family members' reaction` <- as.numeric(recode(data$`How worried about friends other family members' reaction`, !!!difficulty_mapping))
+
+
+
+
+
+
+
+
+print(data)
 
 install.packages("Hmisc")
 

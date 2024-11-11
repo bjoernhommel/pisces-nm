@@ -1,0 +1,72 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0278.parquet",
+    "datasetUrl": "https://osf.io/aef75/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disgree",
+                "2": "Disagree",
+                "3": "Somewhat disagree",
+                "4": "Neither agree or disagree",
+                "5": "Somewhat agree",
+                "6": "Agree",
+                "7": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Intentions to reduce food waste",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Sheen, F., Hardman, C. A., & Robinson, E. (2020). Food waste concerns, eating behaviour and body weight. Appetite, 151, 104692.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Intentions to reduce food waste",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "T1_intentionsQ1", "T1_intentionsQ2", "T1_intentionsQ3", "T1_intentionsQ4" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "T1_intentionsQ1", "itemStemText": "I intend to eat leftover food.", "responseFormatId": "RF1" },
+                { "itemId": "T1_intentionsQ2", "itemStemText": "I intend not to throw away food.", "responseFormatId": "RF1" },
+                { "itemId": "T1_intentionsQ3", "itemStemText": "I intend to generate as little food waste as possible.", "responseFormatId": "RF1" },
+                { "itemId": "T1_intentionsQ4", "itemStemText": "I intend to find a use for food trimmings.", "responseFormatId": "RF1" }
+                
+                
+                
+                
+                
+            ]
+        }
+    ]
+}
