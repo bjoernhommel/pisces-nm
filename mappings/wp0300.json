@@ -1,0 +1,73 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0300.parquet",
+    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CMC00M",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 10,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "strongly disagree",
+                "1": null,
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": null,
+                "8": null,
+                "9": null,
+                "10": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Social distancing behavior",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Pedersen, M. J., & Favero, N. (2020). Social distancing during the COVID‐19 pandemic: Who are the present and future noncompliers?. Public administration review, 80(5), 805-814.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Social distancing behavior",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "socdist1_1", "socdist3_1"],
+                    "upperItemIds": [ "socdist2_1","socdist4_1","socdist5_1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "socdist1_1", "itemStemText": "I will meet with friends or relatives who live outside my own household.", "responseFormatId": "RF1" },
+                { "itemId": "socdist2_1", "itemStemText": "I will make the fewest possible trips to the grocery store.", "responseFormatId": "RF1" },
+                { "itemId": "socdist3_1", "itemStemText": "I will be at places where other people will also be (café, restaurant, specialty shops, church, etc.).", "responseFormatId": "RF1" },
+                { "itemId": "socdist4_1", "itemStemText": "I will avoid all social gatherings (i.e., adhere to so-called ‘social distancing’).", "responseFormatId": "RF1" },
+                { "itemId": "socdist5_1", "itemStemText": "I will strongly encourage others to avoid all social contact (i.e., adhere to so-called ‘social distancing’).", "responseFormatId": "RF1" }
+               
+            ]
+        }
+    ]
+}

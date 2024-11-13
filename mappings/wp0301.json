@@ -1,0 +1,72 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0301.parquet",
+    "datasetUrl": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CMC00M",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 10,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "strongly disagree",
+                "1": null,
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": null,
+                "6": null,
+                "7": null,
+                "8": null,
+                "9": null,
+                "10": "Very Accurate"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "COVID-19-related attitdues and beliefs",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Pedersen, M. J., & Favero, N. (2020). Social distancing during the COVID‐19 pandemic: Who are the present and future noncompliers?. Public administration review, 80(5), 805-814.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "COVID-19r-related attitdues and beliefs",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "attitude1_1", "attitude2_1", "attitude3_1", "attitude4_1" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "attitude1_1", "itemStemText": "The COVID-19 pandemic is the single biggest threat to society in our time.", "responseFormatId": "RF1" },
+                { "itemId": "attitude2_1", "itemStemText": "Reducing the number of deaths caused by COVID-19 is more important than economic concerns.", "responseFormatId": "RF1" },
+                { "itemId": "attitude3_1", "itemStemText": "We have to keep the economy going even if this means more people die from COVID-19.", "responseFormatId": "RF1" },
+                { "itemId": "attitude4_1", "itemStemText": "The government should require all nonessential businesses in my area to close their on-site operations for at least the next 2 weeks.", "responseFormatId": "RF1" }
+               
+            ]
+        }
+    ]
+}
