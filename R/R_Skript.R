@@ -14,9 +14,9 @@ mappings_path = file.path(this_dir, "../mappings")
 
 # Daten einlesen (je nach Dateiformat) --> auf Namen achten!!
 data <- readr::read_csv("../../pisces-nm/data/ccases.csv") # für normale .csv-Dateien
-data <- read_excel("../../pisces-nm/data/Psychosocial_Burden_Accessing_Abortion_Biggs_2020.xls")
+data <- read_excel("../../pisces-nm/data/Data.xls")
 data <- read.table("../../pisces-nm/Studies-1-5.csv", header = TRUE, sep = ";") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
-data <- haven::read_sav("../../pisces-nm/data/Number Symbol Dataset.sav") # für .sav-Dateien (aus SPSS)
+data <- haven::read_sav("../../pisces-nm/data/Study 1 Data file.sav") # für .sav-Dateien (aus SPSS)
 library(foreign)
 
 data <- read.spss("C:/Users/nanam/Arbeit/New_validation/pisces-nm/data/Number Symbol Dataset.sav", to.data.frame = TRUE)

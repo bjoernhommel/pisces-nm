@@ -1,0 +1,89 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0296.parquet",
+    "datasetUrl": "https://osf.io/uxsb5/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Never",
+                "2": "Rarely",
+                "3": "Sometimes",
+                "4": "Often",
+                "5": "Always"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Victim-Signaling Scale - development",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Ok, E., Qian, Y., Strejcek, B., & Aquino, K. (2021). Signaling virtuous victimhood as indicators of Dark Triad personalities. Journal of personality and social psychology, 120(6), 1634.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "identity-based victimization",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "VictSig1_Soc1", "VictSig13_Soc2", "VictSig15_Soc3", "VictSig16_Soc4", "VictSig18_Soc5"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "personal victimization",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "VictSig3_Per1", "VictSig4_Per2",  "VictSig8_Pers3",  "VictSig10_Pers4",  "VictSig11_Pers5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "VictSig1_Soc1", "itemStemText": "Discussed how my concerns and needs are not being heard by political leaders. ", "responseFormatId": "RF1" },
+                { "itemId": "VictSig2", "itemStemText": "Said that my achievements are often being questioned. ", "responseFormatId": "RF1" },
+                { "itemId": "VictSig3_Per1", "itemStemText": "Discussed how I don’t feel financially secure. ", "responseFormatId": "RF1" },
+                { "itemId": "VictSig4_Per2", "itemStemText": "Shared how I don’t feel comfortable with my body. ", "responseFormatId": "RF1" },
+                { "itemId": "VictSig5", "itemStemText": "Brought up that I have fewer opportunities presented to me than other people. ", "responseFormatId": "RF1" },
+                { "itemId": "VictSig6", "itemStemText": "Stated how I am not physically able to pursue my day-to-day activities.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig7", "itemStemText": "Told others that I get paid less based on my identity.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig8_Pers3", "itemStemText": "Pointed out how I am not able to pursue my goals and dreams because of external factors.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig9", "itemStemText": "Expressed that I don’t have strong social support.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig10_Pers4", "itemStemText": "Disclosed that I don’t feel like I am in control of my future.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig11_Pers5", "itemStemText": "Disclosed that I struggle with mental health issues.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig12", "itemStemText": "Told others that I worry about my safety.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig13_Soc2", "itemStemText": "Explained how I don’t feel accepted in the society because of my identity", "responseFormatId": "RF1" },
+                { "itemId": "VictSig14", "itemStemText": "Mentioned that I don’t feel like I get credit for my achievements.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig15_Soc3", "itemStemText": "Spoke about how people who share my identity are criminalized by society.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig16_Soc4", "itemStemText": "Expressed how people like me are underrepresented in the media and leadership.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig17", "itemStemText": "Talked about how people who belong to my group are negatively stereotyped.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig18_Soc5", "itemStemText": "Made it known that I can’t move freely within or outside of my country.", "responseFormatId": "RF1" },
+                { "itemId": "VictSig19", "itemStemText": "Pointed out how my rights were violated in some way", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

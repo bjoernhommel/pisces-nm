@@ -12,11 +12,30 @@ data = readr::read_csv(file.path(data_dir, input_filename))
 library(haven)
 
 # Dateinamen und Pfad festlegen
-input_filename <- "Study 1 Data file.sav"
+input_filename <- "Data.xls"
 
 # Daten einlesen
-data <- read_sav(file.path(data_dir, input_filename))
+data <- read_excel(file.path(data_dir, input_filename))
 
+# Bibliotheken laden
+library(readxl)
+library(rstudioapi)
+
+# Verzeichnis des aktuellen Skripts festlegen
+this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+data_dir <- file.path(this_dir, "data")
+setwd(this_dir)
+
+# Dateinamen festlegen und Pfad überprüfen
+input_filename <- "Data.xls"
+file_path <- file.path(data_dir, input_filename)
+
+if (!file.exists(file_path)) {
+  stop("Datei existiert nicht: ", file_path)
+}
+
+# .xls-Datei einlesen
+data <- read_xls(file_path)
 
 difficulty_mapping <- c(
   "Not at all" = 0,
@@ -53,6 +72,25 @@ data$`How worried about parents' reaction` <- as.numeric(recode(data$`How worrie
 # Umkodieren der spezifischen Spalte
 data$`How worried about friends other family members' reaction` <- as.numeric(recode(data$`How worried about friends other family members' reaction`, !!!difficulty_mapping))
 
+##Fehler behebung
+# Benötigte Bibliotheken laden
+# Benötigte Bibliotheken laden
+library(tidyverse)
+library(arrow)
+library(haven)
+library(readxl)
+library(rstudioapi)
+
+# Verzeichnis des aktuellen Skripts festlegen
+this_dir <- dirname(rstudioapi::getSourceEditorContext()$path)
+data_dir <- file.path(this_dir, "data")
+setwd(this_dir)
+
+# Dateinamen für die .xlsx-Datei festlegen
+input_filename <- "Data.xlsx"  # Name der .xlsx-Datei anpassen
+
+# .xlsx-Datei einlesen
+data <- read_excel(file.path(data_dir, input_filename))
 
 
 # example: recode the value -99 as NA (missing) in columns 3 to 26
@@ -60,7 +98,7 @@ data[, 3:26] = data[, 3:26] %>%
     mutate_if(is.numeric, ~replace(., . == -99, NA))
 
 # saving the .parquet-file
-output_filename = "wp0278.parquet"
+output_filename = "wp0297.parquet"
 
 data %>% 
     arrow::write_parquet(sink = file.path(data_dir, output_filename))
