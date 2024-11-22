@@ -12,10 +12,20 @@ data = readr::read_csv(file.path(data_dir, input_filename))
 library(haven)
 
 # Dateinamen und Pfad festlegen
-input_filename <- "Data.xls"
+input_filename <- "1015-5759_a000527_esm4.dat.txt"
 
 # Daten einlesen
 data <- read_excel(file.path(data_dir, input_filename))
+
+
+data <- read.table(file.path(data_dir, input_filename)
+
+
+input_filename = "1015-5759_a000527_esm4.dat.txt"  # Dateiname anpassen
+data = readr::read_tsv(file.path(data_dir, input_filename))  # Für .txt (Tabulator-getrennte Datei)
+                   
+summary(data) # welche Variablen und Variablentypen sind das
+skimr::skim(data) # Mittelwerte, Missings, Minima und Maxima, ... --> Missings die mit Zahlen kodiert sind finden, Einheiten der Skalen finden
 
 # Bibliotheken laden
 library(readxl)
@@ -87,18 +97,18 @@ data_dir <- file.path(this_dir, "data")
 setwd(this_dir)
 
 # Dateinamen für die .xlsx-Datei festlegen
-input_filename <- "Data.xlsx"  # Name der .xlsx-Datei anpassen
+input_filename <- "pedersenfaveroPAR2020.tab"  # Name der .xlsx-Datei anpassen
 
 # .xlsx-Datei einlesen
-data <- read_excel(file.path(data_dir, input_filename))
+data <- read_tsv(file.path(data_dir, input_filename))
 
 
 # example: recode the value -99 as NA (missing) in columns 3 to 26
-data[, 3:26] = data[, 3:26] %>% 
-    mutate_if(is.numeric, ~replace(., . == -99, NA))
+data[, 1:26] = data[, 1:26] %>% 
+    mutate_if(is.numeric, ~replace(., . == 8, NA))
 
 # saving the .parquet-file
-output_filename = "wp0297.parquet"
+output_filename = "wp0303.parquet"
 
 data %>% 
     arrow::write_parquet(sink = file.path(data_dir, output_filename))

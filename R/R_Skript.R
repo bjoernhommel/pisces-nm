@@ -13,16 +13,20 @@ data_path = file.path(this_dir, "../data")
 mappings_path = file.path(this_dir, "../mappings")
 
 # Daten einlesen (je nach Dateiformat) --> auf Namen achten!!
+data <- readr::read_delim("../../pisces-nm/data/ccases.dat", delim = "\t")
 data <- readr::read_csv("../../pisces-nm/data/ccases.csv") # für normale .csv-Dateien
 data <- read_excel("../../pisces-nm/data/Data.xls")
+data <- readr::read_tsv("../../pisces-nm/data/pedersenfaveroPAR2020.tab")
 data <- read.table("../../pisces-nm/Studies-1-5.csv", header = TRUE, sep = ";") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
-data <- haven::read_sav("../../pisces-nm/data/Study 1 Data file.sav") # für .sav-Dateien (aus SPSS)
+data <- haven::read_sav("../../pisces-nm/data/pone.0230864.s001.sav") # für .sav-Dateien (aus SPSS)
 library(foreign)
 
 data <- read.spss("C:/Users/nanam/Arbeit/New_validation/pisces-nm/data/Number Symbol Dataset.sav", to.data.frame = TRUE)
 load("../../Backlog_digital/IPP31/IPP_complete.RData") # für .RData
 load("../../BehavioralTextMining/dat_tx.Rda") # für .Rda
-data <- read.table("../../pisces-nm/data/Study 2 Data.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
+data <- read.table("../../pisces-nm/data/1015-5759_a000527_esm3.dat.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
+data <- read.table("../../pisces-nm/data/1015-5759_a000527_esm4.dat.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
+
 
 
 # Check the structure of the data frame
