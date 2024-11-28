@@ -1,0 +1,91 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0332.parquet",
+    "datasetUrl": "https://osf.io/e4jg7/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "nie",
+                "1": "selten",
+                "2": "manchmal",
+                "3": "oft",
+                "4": "immer"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Positive and Negative Affect Schedule",
+            "instrumentNameShort": "PANAS",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Hagemeyer, B., Salomo, S., Engelhardt, C., Neyer, F. J., & Rupprecht, S. (2020). Assessing individual differences in the affective experience of dreams: The Jena dream inventory–affect scales (JeDI-A). Assessment, 27(8), 1946-1959.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Positive emotions",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "panas02","panas04","panas06","panas07","panas08","panas11","panas13","panas14","panas17","panas18"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Negativ emotions",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "panas01", "panas03","panas05","panas09","panas10","panas12","panas15","panas16","panas19","panas20"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+               { "itemId": "panas01", "itemStemText": "verärgert", "responseFormatId": "RF1" },
+               { "itemId": "panas02", "itemStemText": "wach", "responseFormatId": "RF1" },
+               { "itemId": "panas03", "itemStemText": "beschämt", "responseFormatId": "RF1" },
+               { "itemId": "panas04", "itemStemText": "angeregt", "responseFormatId": "RF1" },
+               { "itemId": "panas05", "itemStemText": "nervös", "responseFormatId": "RF1" },
+               { "itemId": "panas06", "itemStemText": "entschlossen", "responseFormatId": "RF1" },
+               { "itemId": "panas07", "itemStemText": "aufmerksam", "responseFormatId": "RF1" },
+               { "itemId": "panas08", "itemStemText": "aktiv", "responseFormatId": "RF1" },
+               { "itemId": "panas09", "itemStemText": "ängstlich", "responseFormatId": "RF1" },
+               { "itemId": "panas10", "itemStemText": "feindselig", "responseFormatId": "RF1" },
+               { "itemId": "panas11", "itemStemText": "interessiert", "responseFormatId": "RF1" },
+               { "itemId": "panas12", "itemStemText": "bekümmert", "responseFormatId": "RF1" },
+               { "itemId": "panas13", "itemStemText": "freudig erregt", "responseFormatId": "RF1" },
+               { "itemId": "panas14", "itemStemText": "stark", "responseFormatId": "RF1" },
+               { "itemId": "panas15", "itemStemText": "schuldig", "responseFormatId": "RF1" },
+               { "itemId": "panas16", "itemStemText": "erschrocken", "responseFormatId": "RF1" },
+               { "itemId": "panas17", "itemStemText": "begeistert", "responseFormatId": "RF1" },
+               { "itemId": "panas18", "itemStemText": "stolz", "responseFormatId": "RF1" },
+               { "itemId": "panas19", "itemStemText": "gereizt", "responseFormatId": "RF1" },
+               { "itemId": "panas20", "itemStemText": "durcheinander", "responseFormatId": "RF1" }
+                
+            ]
+        }
+    ]
+}

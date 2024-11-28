@@ -1,0 +1,116 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0329.parquet",
+    "datasetUrl": "https://osf.io/e4jg7/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "nie",
+                "1": "selten",
+                "2": "manchmal",
+                "3": "oft",
+                "4": "immer"
+            }
+        },
+        {
+            "responseFormatId": "RF2",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "stimme überhaupt nicht zu",
+                "1": null, 
+                "2": null, 
+                "3": null, 
+                "4": "stimme vollkommen zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Jena Dream Inventory–Affect",
+            "instrumentNameShort": "JeDI-A",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Hagemeyer, B., Salomo, S., Engelhardt, C., Neyer, F. J., & Rupprecht, S. (2020). Assessing individual differences in the affective experience of dreams: The Jena dream inventory–affect scales (JeDI-A). Assessment, 27(8), 1946-1959.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Positive Dream Affect",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "patr01","patr02","patr03","patr04","patr05","patr06","patr07","patr08","patr09","patr10"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Negativ Dream Affect",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "patr11","patr12","patr13","patr14","patr15","patr16","patr17","patr18" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Dream Intensity",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "int2", "int1", "int3"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "patr01", "itemStemText": "In meinen Träumen fühle ich mich interessiert", "responseFormatId": "RF1" },
+                { "itemId": "patr02", "itemStemText": "In meinen Träumen fühle ich mich bekümmert", "responseFormatId": "RF1" },
+                { "itemId": "patr03", "itemStemText": "In meinen Träumen fühle ich mich freudig erregt", "responseFormatId": "RF1" },
+                { "itemId": "patr04", "itemStemText": "In meinen Träumen fühle ich mich verärgert", "responseFormatId": "RF1" },
+                { "itemId": "patr05", "itemStemText": "In meinen Träumen fühle ich mich stark", "responseFormatId": "RF1" },
+                { "itemId": "patr06", "itemStemText": "In meinen Träumen fühle ich mich schuldig", "responseFormatId": "RF1" },
+                { "itemId": "patr07", "itemStemText": "In meinen Träumen fühle ich mich erschrocken", "responseFormatId": "RF1" },
+                { "itemId": "patr08", "itemStemText": "In meinen Träumen fühle ich mich feindselig", "responseFormatId": "RF1" },
+                { "itemId": "patr09", "itemStemText": "In meinen Träumen fühle ich mich begeistert", "responseFormatId": "RF1" },
+                { "itemId": "patr10", "itemStemText": "In meinen Träumen fühle ich mich stolz", "responseFormatId": "RF1" },
+                { "itemId": "patr11", "itemStemText": "In meinen Träumen fühle ich mich gereizt", "responseFormatId": "RF1" },
+                { "itemId": "patr12", "itemStemText": "In meinen Träumen fühle ich mich beschämt", "responseFormatId": "RF1" },
+                { "itemId": "patr13", "itemStemText": "In meinen Träumen fühle ich mich angeregt", "responseFormatId": "RF1" },
+                { "itemId": "patr14", "itemStemText": "In meinen Träumen fühle ich mich nervös", "responseFormatId": "RF1" },
+                { "itemId": "patr15", "itemStemText": "In meinen Träumen fühle ich mich entschlossen", "responseFormatId": "RF1" },
+                { "itemId": "patr16", "itemStemText": "In meinen Träumen fühle ich mich aufmerksam", "responseFormatId": "RF1" },
+                { "itemId": "patr17", "itemStemText": "In meinen Träumen fühle ich mich aktiv", "responseFormatId": "RF1" },
+                { "itemId": "patr18", "itemStemText": "In meinen Träumen fühle ich mich ängstlich", "responseFormatId": "RF1" },
+                { "itemId": "int2", "itemStemText": "Ich habe aufregende Träume.", "responseFormatId": "RF2" },
+                { "itemId": "int1", "itemStemText": "Meine Träume sind lebhaft.", "responseFormatId": "RF2" },
+                { "itemId": "int3", "itemStemText": "Meine Träume sind gefühlsintensiv.", "responseFormatId": "RF2" }
+                
+            ]
+        }
+    ]
+}

@@ -18,7 +18,7 @@ data <- readr::read_csv("../../pisces-nm/data/ccases.csv") # für normale .csv-D
 data <- read_excel("../../pisces-nm/data/Data.xls")
 data <- readr::read_tsv("../../pisces-nm/data/pedersenfaveroPAR2020.tab")
 data <- read.table("../../pisces-nm/Studies-1-5.csv", header = TRUE, sep = ";") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
-data <- haven::read_sav("../../pisces-nm/data/pone.0230864.s001.sav") # für .sav-Dateien (aus SPSS)
+data <- haven::read_sav("../../pisces-nm/data/main_data.sav.sav") # für .sav-Dateien (aus SPSS)
 library(foreign)
 
 data <- read.spss("C:/Users/nanam/Arbeit/New_validation/pisces-nm/data/Number Symbol Dataset.sav", to.data.frame = TRUE)

@@ -1,0 +1,69 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0333.parquet",
+    "datasetUrl": "https://osf.io/e4jg7/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "stimmt über-haupt nicht zu",
+                "2": "stimme nicht zu",
+                "3": "stimme eher nicht zu",
+                "4": "weder / noch",
+                "5": "stimme eher zu",
+                "6": "stimme zu",
+                "7": "stimme völlig zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Satisfaction With Life Scale",
+            "instrumentNameShort": "SWLS",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Hagemeyer, B., Salomo, S., Engelhardt, C., Neyer, F. J., & Rupprecht, S. (2020). Assessing individual differences in the affective experience of dreams: The Jena dream inventory–affect scales (JeDI-A). Assessment, 27(8), 1946-1959.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Satisfaction with life",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "swls1","swls2","swls3","swls4","swls5"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+               { "itemId": "swls1", "itemStemText": "In den meisten Bereichen entspricht mein Leben meinen Idealvorstellungen.", "responseFormatId": "RF1" },
+               { "itemId": "swls2", "itemStemText": "Meine Lebensbedingungen sind ausgezeichnet.", "responseFormatId": "RF1" },
+               { "itemId": "swls3", "itemStemText": "Ich bin mit meinem Leben zufrieden.", "responseFormatId": "RF1" },
+               { "itemId": "swls4", "itemStemText": "Bisher habe ich die wesentlichen Dinge erreicht, die ich mir für mein Leben wünsche.", "responseFormatId": "RF1" },
+               { "itemId": "swls5", "itemStemText": "Wenn ich mein Leben noch einmal leben könnte, würde ich kaum etwas ändern.", "responseFormatId": "RF1" }
+                
+            ]
+        }
+    ]
+}

@@ -6,9 +6,12 @@ data_dir = file.path(this_dir, "/data")
 setwd(this_dir)
 
 # reading a .csv-file
-input_filename = "HILS3 and SWLS3 T1 Raw Open.csv"
+input_filename = "main_data.sav"
 data = readr::read_csv(file.path(data_dir, input_filename))
 
+
+input_filename <- "main_data.sav"
+data <- read_sav(file.path(data_dir, input_filename))
 library(haven)
 
 # Dateinamen und Pfad festlegen
