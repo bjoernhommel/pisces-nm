@@ -1,0 +1,76 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0344.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264889#sec022",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 10,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "not at all like me",
+                "2": null, 
+                "3": null, 
+                "4": null, 
+                "5": null, 
+                "6": null, 
+                "7": null, 
+                "8": null, 
+                "9": null, 
+                "10": "very much like me" 
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Self-Control Scale",
+            "instrumentNameShort": "SCS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kannangara, C., Allen, R., Hochard, K. D., & Carson, J. (2022). An international validation of the Bolton Unistride Scale (BUSS) of tenacity. Plos one, 17(3), e0264889.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Self Controle",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "SC1","SC2","SC3","SC4","SC5","SC6","SC7","SC8","SC9","SC10"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "SC1", "itemStemText": "I have a hard time breaking bad habits.", "responseFormatId": "RF1" },
+                { "itemId": "SC2", "itemStemText": "I get distracted easily.", "responseFormatId": "RF1" },
+                { "itemId": "SC3", "itemStemText": "I say inappropriate things.", "responseFormatId": "RF1" },
+                { "itemId": "SC4", "itemStemText": "I refuse things that are bad for me, even if they are fun.", "responseFormatId": "RF1" },
+                { "itemId": "SC5", "itemStemText": "I'm good at resisting temptation.", "responseFormatId": "RF1" },
+                { "itemId": "SC6", "itemStemText": "People would say that I have very strong self-discipline.", "responseFormatId": "RF1" },
+                { "itemId": "SC7", "itemStemText": "Pleasure and fun sometimes keep me from getting work done.", "responseFormatId": "RF1" },
+                { "itemId": "SC8", "itemStemText": "I do things that feel good in the moment but regret later on", "responseFormatId": "RF1" },
+                { "itemId": "SC9", "itemStemText": "Sometimes I can't stop myself from doing something, even if I know it´s wrong.", "responseFormatId": "RF1" },
+                { "itemId": "SC10", "itemStemText": "I often act without thinking through all the alternatives.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

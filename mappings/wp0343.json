@@ -1,0 +1,82 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0343.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264889#sec022",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": null, 
+                "3": null, 
+                "4": null, 
+                "5": "Strongly Agree" 
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Bolton Unistride Scale",
+            "instrumentNameShort": "BUSS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kannangara, C., Allen, R., Hochard, K. D., & Carson, J. (2022). An international validation of the Bolton Unistride Scale (BUSS) of tenacity. Plos one, 17(3), e0264889.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Persistence",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "BUSS7","BUSS1","BUSS6","BUSS11","BUSS12","BUSS3","BUSS9" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Self-Composure",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": ["BUSS4","BUSS2","BUSS10","BUSS5","BUSS8"  ],
+                    "upperItemIds": [ ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "BUSS7", "itemStemText": "Using my personal strengths is a habit of mine", "responseFormatId": "RF1" },
+                { "itemId": "BUSS1", "itemStemText": "I use my strengths in various situations", "responseFormatId": "RF1" },
+                { "itemId": "BUSS6", "itemStemText": "I consider myself as very capable in handling personal challenges", "responseFormatId": "RF1" },
+                { "itemId": "BUSS11", "itemStemText": "I am generally able to move forward in life", "responseFormatId": "RF1" },
+                { "itemId": "BUSS12", "itemStemText": "I am always looking for ways to improve talents and skills", "responseFormatId": "RF1" },
+                { "itemId": "BUSS3", "itemStemText": "I consider myself as persistent and hard working", "responseFormatId": "RF1" },
+                { "itemId": "BUSS9", "itemStemText": "Find it easy to make decisions", "responseFormatId": "RF1" },
+                { "itemId": "BUSS4", "itemStemText": "Sometimes I know that my actions are wrong, but I cannot stop my actions", "responseFormatId": "RF1" },
+                { "itemId": "BUSS2", "itemStemText": "I sometimes do things that feel good in the moment but later regret", "responseFormatId": "RF1" },
+                { "itemId": "BUSS10", "itemStemText": "I find it difficult to focus on one project for a long time", "responseFormatId": "RF1" },
+                { "itemId": "BUSS5", "itemStemText": "I am not comfortable trying new ways of doing things", "responseFormatId": "RF1" },
+                { "itemId": "BUSS8", "itemStemText": "I set specific goals about my education and carrer, but after a while I decide on a new set of goals", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

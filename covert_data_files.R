@@ -14,6 +14,12 @@ input_filename <- "main_data.sav"
 data <- read_sav(file.path(data_dir, input_filename))
 library(haven)
 
+library(foreign)
+
+data <- read.spss(file = "C:/Users/nanam/Arbeit/New_validation/pisces-nm/data/main_data.sav", 
+                  to.data.frame = TRUE, 
+                  reencode = "UTF-8")
+
 # Dateinamen und Pfad festlegen
 input_filename <- "1015-5759_a000527_esm4.dat.txt"
 
@@ -51,14 +57,90 @@ if (!file.exists(file_path)) {
 data <- read_xls(file_path)
 
 difficulty_mapping <- c(
-  "Not at all" = 0,
-  "A little bit" = 1,
-  "Somewhat" = 2,
-  "Very" = 3
+  "never" = 0,
+  "rarely" = 1,
+  "soemtimes" = 2,
+  "often" = 3,
+  "always" =4
 )
 
 # Umkodieren der spezifischen Spalte
-data$`How difficult finding a place` <- as.numeric(recode(data$`How difficult finding a place`, !!!difficulty_mapping))
+data$`patr01` <- as.numeric(recode(data$`patr01`, !!!difficulty_mapping))
+data$`patr02` <- as.numeric(recode(data$`patr02`, !!!difficulty_mapping))
+data$`patr03` <- as.numeric(recode(data$`patr03`, !!!difficulty_mapping))
+data$`patr04` <- as.numeric(recode(data$`patr04`, !!!difficulty_mapping))
+data$`patr05` <- as.numeric(recode(data$`patr05`, !!!difficulty_mapping))
+data$`patr06` <- as.numeric(recode(data$`patr06`, !!!difficulty_mapping))
+data$`patr07` <- as.numeric(recode(data$`patr07`, !!!difficulty_mapping))
+data$`patr08` <- as.numeric(recode(data$`patr08`, !!!difficulty_mapping))
+data$`patr09` <- as.numeric(recode(data$`patr09`, !!!difficulty_mapping))
+data$`patr10` <- as.numeric(recode(data$`patr10`, !!!difficulty_mapping))
+data$`patr11` <- as.numeric(recode(data$`patr11`, !!!difficulty_mapping))
+data$`patr12` <- as.numeric(recode(data$`patr12`, !!!difficulty_mapping))
+data$`patr13` <- as.numeric(recode(data$`patr13`, !!!difficulty_mapping))
+data$`patr14` <- as.numeric(recode(data$`patr14`, !!!difficulty_mapping))
+data$`patr15` <- as.numeric(recode(data$`patr15`, !!!difficulty_mapping))
+data$`patr16` <- as.numeric(recode(data$`patr16`, !!!difficulty_mapping))
+data$`patr17` <- as.numeric(recode(data$`patr17`, !!!difficulty_mapping))
+data$`patr18` <- as.numeric(recode(data$`patr18`, !!!difficulty_mapping))
+
+
+difficulty_mapping_2 <- c(
+  "disagree strongly" = 0,
+  "disagree a little" = 1,
+  "neither agree nor disagree" = 2,
+  "agree a little" = 3,
+  "agree stongly" = 4
+)
+
+data$`int1` <- as.numeric(recode(data$`int1`, !!!difficulty_mapping_2))
+data$`int2` <- as.numeric(recode(data$`int2`, !!!difficulty_mapping_2))
+data$`int3` <- as.numeric(recode(data$`int3`, !!!difficulty_mapping_2))
+
+difficulty_mapping_3 <- c(
+  "not at all" = 0,
+  "a bit" = 1,
+  "a little" = 2,
+  "moderately" = 3,
+  "very much" = 4
+)
+
+data$`panas01` <- as.numeric(recode(data$`panas01`, !!!difficulty_mapping_3))
+data$`panas02` <- as.numeric(recode(data$`panas02`, !!!difficulty_mapping_3))
+data$`panas03` <- as.numeric(recode(data$`panas03`, !!!difficulty_mapping_3))
+data$`panas04` <- as.numeric(recode(data$`panas04`, !!!difficulty_mapping_3))
+data$`panas05` <- as.numeric(recode(data$`panas05`, !!!difficulty_mapping_3))
+data$`panas06` <- as.numeric(recode(data$`panas06`, !!!difficulty_mapping_3))
+data$`panas07` <- as.numeric(recode(data$`panas07`, !!!difficulty_mapping_3))
+data$`panas08` <- as.numeric(recode(data$`panas08`, !!!difficulty_mapping_3))
+data$`panas09` <- as.numeric(recode(data$`panas09`, !!!difficulty_mapping_3))
+data$`panas10` <- as.numeric(recode(data$`panas10`, !!!difficulty_mapping_3))
+data$`panas11` <- as.numeric(recode(data$`panas11`, !!!difficulty_mapping_3))
+data$`panas12` <- as.numeric(recode(data$`panas12`, !!!difficulty_mapping_3))
+data$`panas13` <- as.numeric(recode(data$`panas13`, !!!difficulty_mapping_3))
+data$`panas14` <- as.numeric(recode(data$`panas14`, !!!difficulty_mapping_3))
+data$`panas15` <- as.numeric(recode(data$`panas15`, !!!difficulty_mapping_3))
+data$`panas16` <- as.numeric(recode(data$`panas16`, !!!difficulty_mapping_3))
+data$`panas17` <- as.numeric(recode(data$`panas17`, !!!difficulty_mapping_3))
+data$`panas18` <- as.numeric(recode(data$`panas18`, !!!difficulty_mapping_3))
+data$`panas19` <- as.numeric(recode(data$`panas19`, !!!difficulty_mapping_3))
+data$`panas20` <- as.numeric(recode(data$`panas20`, !!!difficulty_mapping_3))
+
+difficulty_mapping_4 <- c(
+   "stimmt über-haupt nicht zu [1]" = 1,
+   "stimme nicht zu [2]" = 2,
+   "stimme eher nicht zu [3]" = 3,
+   "weder / noch [4]" = 4,
+   "stimme eher zu [5]" = 5,
+   "stimme zu [6]" = 6,
+   "stimme v�llig zu [7]" = 7
+)
+
+data$`swls1` <- as.numeric(recode(data$`swls1`, !!!difficulty_mapping_4))
+data$`swls2` <- as.numeric(recode(data$`swls2`, !!!difficulty_mapping_4))
+data$`swls3` <- as.numeric(recode(data$`swls3`, !!!difficulty_mapping_4))
+data$`swls4` <- as.numeric(recode(data$`swls4`, !!!difficulty_mapping_4))
+data$`swls5` <- as.numeric(recode(data$`swls5`, !!!difficulty_mapping_4))
 
 
 # Umkodieren der spezifischen Spalte
@@ -111,7 +193,7 @@ data[, 1:26] = data[, 1:26] %>%
     mutate_if(is.numeric, ~replace(., . == 8, NA))
 
 # saving the .parquet-file
-output_filename = "wp0303.parquet"
+output_filename = "wp0333.parquet"
 
 data %>% 
     arrow::write_parquet(sink = file.path(data_dir, output_filename))
