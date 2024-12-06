@@ -1,0 +1,70 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0352.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264889#sec022",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Not like me at all",
+                "2": null, 
+                "3": null, 
+                "4": null, 
+                "5": "Very much like me" 
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Short Grit Scale",
+            "instrumentNameShort": "Grit-S",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kannangara, C., Allen, R., Hochard, K. D., & Carson, J. (2022). An international validation of the Bolton Unistride Scale (BUSS) of tenacity. Plos one, 17(3), e0264889.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Grit",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "GR1", "GR3", "GR5", "GR6"],
+                    "upperItemIds": [ "GR2", "GR4","GR7","GR8"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "GR1", "itemStemText": "New ideas and projects sometimes distract me from previous ones.", "responseFormatId": "RF1" },
+                { "itemId": "GR2", "itemStemText": "Setbacks don’t discourage me.", "responseFormatId": "RF1" },
+                { "itemId": "GR3", "itemStemText": "I have been obsessed with a certain idea or project for a short time but later lost interest.", "responseFormatId": "RF1" },
+                { "itemId": "GR4", "itemStemText": "I am a hard worker.", "responseFormatId": "RF1" },
+                { "itemId": "GR5", "itemStemText": "I often set a goal but later choose to pursue a different one.", "responseFormatId": "RF1" },
+                { "itemId": "GR6", "itemStemText": "I have difficulty maintaining my focus on projects that take more than a few months to complete.", "responseFormatId": "RF1" },
+                { "itemId": "GR7", "itemStemText": "I finish whatever I begin.", "responseFormatId": "RF1" },
+                { "itemId": "GR8", "itemStemText": "I am diligent.", "responseFormatId": "RF1" }
+               
+            ]
+        }
+    ]
+}

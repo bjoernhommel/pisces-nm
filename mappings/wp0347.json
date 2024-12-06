@@ -1,0 +1,67 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0347.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264889#sec022",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly Disagree",
+                "2": null, 
+                "3": null, 
+                "4": null, 
+                "5": "Strongly Agree" 
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Future Work Self Scale",
+            "instrumentNameShort": "FWS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kannangara, C., Allen, R., Hochard, K. D., & Carson, J. (2022). An international validation of the Bolton Unistride Scale (BUSS) of tenacity. Plos one, 17(3), e0264889.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Future Work Self",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "FWS1","FWS2","FWS3","FWS4","FWS5"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "FWS1", "itemStemText": "My future is very easy for me to imagine (future of your career path).", "responseFormatId": "RF1" },
+                { "itemId": "FWS2", "itemStemText": "The mental picture of my career future is very clear.", "responseFormatId": "RF1" },
+                { "itemId": "FWS3", "itemStemText": "I can easily imagine my Future Work Self.", "responseFormatId": "RF1" },
+                { "itemId": "FWS4", "itemStemText": "I am very clear about who and what I want to become in my future work.", "responseFormatId": "RF1" },
+                { "itemId": "FWS5", "itemStemText": "What type of future I want in relation to my work is very clear in my mind.", "responseFormatId": "RF1" }
+              
+            ]
+        }
+    ]
+}

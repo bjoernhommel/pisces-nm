@@ -1,0 +1,75 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0351.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264889#sec022",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "None of the time",
+                "2": null, 
+                "3": null, 
+                "4": null, 
+                "5": "All of the time" 
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Warwick-Edinburgh MEntal Wellbeing Scale",
+            "instrumentNameShort": "WEMWBS",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kannangara, C., Allen, R., Hochard, K. D., & Carson, J. (2022). An international validation of the Bolton Unistride Scale (BUSS) of tenacity. Plos one, 17(3), e0264889.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Mental well-being",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "WE1","WE2","WE3","WE4","WE5","WE6","WE7","WE8","WE9","WE10","WE11","WE12","WE13","WE14"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "WE1", "itemStemText": "I've been feeling optimistic about the future.", "responseFormatId": "RF1" },
+                { "itemId": "WE2", "itemStemText": "I've been feeling useful.", "responseFormatId": "RF1" },
+                { "itemId": "WE3", "itemStemText": "I've been feeling relaxed.", "responseFormatId": "RF1" },
+                { "itemId": "WE4", "itemStemText": "I've been feeling interested in other people.", "responseFormatId": "RF1" },
+                { "itemId": "WE5", "itemStemText": "I've had energy to spare.", "responseFormatId": "RF1" },
+                { "itemId": "WE6", "itemStemText": "I've been dealing with problems well.", "responseFormatId": "RF1" },
+                { "itemId": "WE7", "itemStemText": "I've been thinking clearly.", "responseFormatId": "RF1" },
+                { "itemId": "WE8", "itemStemText": "I've been feeling good about myself.", "responseFormatId": "RF1" },
+                { "itemId": "WE9", "itemStemText": "I've been feeling close to other people.", "responseFormatId": "RF1" },
+                { "itemId": "WE10", "itemStemText": "I've been feeling confident.", "responseFormatId": "RF1" },
+                { "itemId": "WE11", "itemStemText": "I've been able to make up my own mind about things.", "responseFormatId": "RF1" },
+                { "itemId": "WE12", "itemStemText": "I've been feeling loved.", "responseFormatId": "RF1" },
+                { "itemId": "WE13", "itemStemText": "I've been interested in new things.", "responseFormatId": "RF1" },
+                { "itemId": "WE14", "itemStemText": "I've been feeling cheerful.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

@@ -10,7 +10,7 @@ input_filename = "main_data.sav"
 data = readr::read_csv(file.path(data_dir, input_filename))
 
 
-input_filename <- "main_data.sav"
+input_filename <- "pone.0264889.s001.sav"
 data <- read_sav(file.path(data_dir, input_filename))
 library(haven)
 
@@ -167,6 +167,29 @@ data$`How worried about parents' reaction` <- as.numeric(recode(data$`How worrie
 # Umkodieren der spezifischen Spalte
 data$`How worried about friends other family members' reaction` <- as.numeric(recode(data$`How worried about friends other family members' reaction`, !!!difficulty_mapping))
 
+
+# Label für Variablen als Tabelle speichern --> Items
+labels <- map_chr(data[,1:195], ~attr(.x, "label")) %>%  bind_cols(names = names(data[,1:195]), question = .)
+write.csv(labels, "../../New_validation/pisces-nm/data/labels.csv")
+colnames(data)
+spalten_ueberschriften <- data.frame(Überschrift = names(data))
+
+
+# Tabelle anzeigen
+print(spalten_ueberschriften)
+spalten_ueberschriften <- data.frame(
+  Überschrift = names(data),
+  stringsAsFactors = FALSE
+)
+# Spaltenüberschriften extrahieren
+
+
+# Aufteilen der Spaltenüberschriften in Haupt- und Unterüberschriften
+spalten_ueberschriften <- spalten_ueberschriften %>%
+  separate(Überschrift, into = c("Hauptüberschrift", "Unterüberschrift"), sep = "\\.", fill = "right")
+
+# Tabelle anzeigen
+print(spalten_ueberschriften)
 ##Fehler behebung
 # Benötigte Bibliotheken laden
 # Benötigte Bibliotheken laden
@@ -193,7 +216,7 @@ data[, 1:26] = data[, 1:26] %>%
     mutate_if(is.numeric, ~replace(., . == 8, NA))
 
 # saving the .parquet-file
-output_filename = "wp0333.parquet"
+output_filename = "wp0344.parquet"
 
 data %>% 
     arrow::write_parquet(sink = file.path(data_dir, output_filename))

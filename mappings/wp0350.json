@@ -1,0 +1,71 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0350.parquet",
+    "datasetUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264889#sec022",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 0,
+            "responseFormatMaxValue": 4,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "0": "not true at all",
+                "1": null, 
+                "2": null, 
+                "3": null, 
+                "4": "true nearly all the time" 
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Connor-Davidson Resilience Scale",
+            "instrumentNameShort": "CD-RISC 10",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Kannangara, C., Allen, R., Hochard, K. D., & Carson, J. (2022). An international validation of the Bolton Unistride Scale (BUSS) of tenacity. Plos one, 17(3), e0264889.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Future Work Self",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "CDRISC1","CDRISC2","CDRISC3","CDRISC4","CDRISC5","CDRISC6","CDRISC7","CDRISC8","CDRISC9","CDRISC10"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "CDRISC1", "itemStemText": "I am able to adapt when changes occur.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC2", "itemStemText": "I can deal with whatever comes my way.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC3", "itemStemText": "I try to see the humorous side of things when I am faced with problems.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC4", "itemStemText": "Having to cope with stress can make me stronger.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC5", "itemStemText": "I tend to bounce back after illness, injury, or other hardships.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC6", "itemStemText": "I believe I can achieve my goals, even if there are obstacles.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC7", "itemStemText": "Under pressure, I stay calm and think clearly.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC8", "itemStemText": "I am not easily discouraged by failure.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC9", "itemStemText": "I think of myself as a strong person when dealing with life’s challenges and difficulties.", "responseFormatId": "RF1" },
+                { "itemId": "CDRISC10", "itemStemText": "I am able to handle unpleasant or painful feelings like sadness, fear, and anger.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}
