@@ -1,0 +1,103 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0376.parquet",
+    "datasetUrl": "https://osf.io/6r2nm/",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 7,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "trifft überhaupt nicht zu",
+                "2": "trifft nicht zu",
+                "3": "trifft eher nicht zu",
+                "4": "trifft wieder zu noch nicht zu",
+                "5": "trifft eher zu",
+                "6": "trifft zu",
+                "7": "trifft völlig zu"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Other-directed, Lighthearted, Intellectual, and Whimsical - short",
+            "instrumentNameShort": "OLIW-S",
+            "instrumentLanguage": "de",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Proyer, R. T., Brauer, K., & Wolf, A. (2019). Assessing other-directed, lighthearted, intellectual, and whimsical playfulness in adults. European Journal of Psychological Assessment.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Other-directed",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "OLIWS3", "OLIWS7", "OLIWS11" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Lighthearted",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "OLIWS2", "OLIWS6", "OLIWS10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Intellectual",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "OLIWS1", "OLIWS9"  ],
+                    "upperItemIds": [ "OLIWS5" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "Whimsical",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [],
+                    "upperItemIds": [ "OLIWS4", "OLIWS8", "OLIWS12" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "OLIWS1", "itemStemText": "Bei Problemen, über die ich nachdenke, suche ich nach einem fertigen Schema zur Lösung und setze eher selten auf einen spielerischen Zugang zur Problemlösung.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS2", "itemStemText": "Ich mache mir bei den meisten Dingen, die ich zu erledigen habe, wenig Sorgen, weil sich immer etwas ergeben wird.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS3", "itemStemText": "Auch als Erwachsene/r gefällt es mir noch, andere auf lustige Art und Weise hereinzulegen; also Anderen kleine, gutmütige Streiche zu spielen.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS4", "itemStemText": "Ich schwimme gerne „gegen den Strom“.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS5", "itemStemText": "Wenn ich unter Zeitdruck etwas Neues lernen muss, dann versuche ich, einen spielerischen Zugang zu den Inhalten zu finden - das hilft mir beim Lernen.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS6", "itemStemText": "Ich bin ein unbekümmerter Mensch.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS7", "itemStemText": "Mit engen Freunden etwas nachspielen, das man gemeinsam erlebt hat (z.B. ein lustiges Ereignis, an das man sich gerne erinnert), bereitet mir Freude.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS8", "itemStemText": "Ich habe den Ruf, etwas ungewöhnlich oder extravagant zu sein.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS9", "itemStemText": "Wenn man eine konkrete Aufgabe lösen soll, dann hat verspielt sein keinen Platz. Das stört nur bei der Arbeit.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS10", "itemStemText": "Viele Menschen nehmen ihren Alltag viel zu ernst; wenn etwas nicht klappt, muss man eben improvisieren.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS11", "itemStemText": "Ich kann meine Gefühle für meine Partnerin/meinen Partner auf eine verspielte Art und Weise ausdrücken.", "responseFormatId": "RF1" },
+                { "itemId": "OLIWS12", "itemStemText": "Ich lasse mich im Allgemeinen nicht gerne einordnen und habe bei Vielem meinen eigenen Stil.", "responseFormatId": "RF1" }
+               
+            ]
+        }
+    ]
+}

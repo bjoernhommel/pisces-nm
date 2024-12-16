@@ -12,13 +12,17 @@ getwd()
 data_path = file.path(this_dir, "../data")
 mappings_path = file.path(this_dir, "../mappings")
 
+data <- read.delim("../../pisces-nm/data/AllScalesForCFA.csv", sep = "\t", header = TRUE)
 # Daten einlesen (je nach Dateiformat) --> auf Namen achten!!
 data <- readr::read_delim("../../pisces-nm/data/ccases.dat", delim = "\t")
-data <- readr::read_csv("../../pisces-nm/data/ccases.csv") # für normale .csv-Dateien
+data <- readr::read_csv("../../pisces-nm/data/AllScalesForCFA.csv") # für normale .csv-Dateien
+data <- readr::read_delim("../../pisces-nm/data/AllScalesForCFA.csv", delim = " ")
+data <- readr::read_delim("../../pisces-nm/data/AllScalesForCFA.csv", delim = "\\s+")
+
 data <- read_excel("../../pisces-nm/data/Data.xls")
 data <- readr::read_tsv("../../pisces-nm/data/pedersenfaveroPAR2020.tab")
-data <- read.table("../../pisces-nm/Studies-1-5.csv", header = TRUE, sep = ";") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
-data <- haven::read_sav("../../pisces-nm/data/main_data.sav.sav") # für .sav-Dateien (aus SPSS)
+data <- read.table("../../pisces-nm/data/AllScalesForCFA.csv", header = TRUE, sep = " ") # falls irgendwelche anderen Spaltenseparatoren statt Komma: unter sep = "" einstellen
+data <- haven::read_sav("../../pisces-nm/data/1864-9335_a000381_esm1.sav") # für .sav-Dateien (aus SPSS)
 library(foreign)
 
 data <- read.spss("C:/Users/nanam/Arbeit/New_validation/pisces-nm/data/Number Symbol Dataset.sav", to.data.frame = TRUE)
@@ -26,6 +30,15 @@ load("../../Backlog_digital/IPP31/IPP_complete.RData") # für .RData
 load("../../BehavioralTextMining/dat_tx.Rda") # für .Rda
 data <- read.table("../../pisces-nm/data/1015-5759_a000527_esm3.dat.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 data <- read.table("../../pisces-nm/data/1015-5759_a000527_esm4.dat.txt", header = TRUE, sep = "\t", stringsAsFactors = FALSE)
+
+
+library(foreign)
+data <- read.spss("../../pisces-nm/R/1864-9335_a000381_esm1.sav", to.data.frame = TRUE)
+library(rio)
+data <- import("../../pisces-nm/R/1864-9335_a000381_esm1.sav")
+
+
+data <- haven::read_sav("../../pisces-nm/R/1864-9335_a000381_esm1.sav", encoding = "UTF-8")
 
 
 

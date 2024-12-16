@@ -1,0 +1,80 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0366.parquet",
+    "datasetUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00225/full#h11",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Perfect Automation Schema",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Merritt, S. M., Ako-Brew, A., Bryant, W. J., Staley, A., McKenna, M., Leone, A., & Shirase, L. (2019). Automation-induced complacency potential: Development and validation of a new scale. Frontiers in psychology, 10, 225.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "High expectations",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "DV4", "DV5"],
+                    "upperItemIds": ["DV1", "DV2", "DV3", "DV6"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "All-or-none thinking",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ ],
+                    "upperItemIds": [ "DV7", "DV8", "DV9", "DV10"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "DV1", "itemStemText": "Automated systems have 100% perfect performance", "responseFormatId": "RF1" },
+                { "itemId": "DV2", "itemStemText": "Automated systems rarely make mistakes", "responseFormatId": "RF1" },
+                { "itemId": "DV3", "itemStemText": "Automated systems can always be counted on to make accurate decisions", "responseFormatId": "RF1" },
+                { "itemId": "DV4", "itemStemText": "Automated systems make more mistakes than people realize", "responseFormatId": "RF1" },
+                { "itemId": "DV5", "itemStemText": "People generally believe automated systems work better than they do", "responseFormatId": "RF1" },
+                { "itemId": "DV6", "itemStemText": "People have NO reason to question the decisions automated systems make", "responseFormatId": "RF1" },
+                { "itemId": "DV7", "itemStemText": "If an automated system makes an error, then it is broken", "responseFormatId": "RF1" },
+                { "itemId": "DV8", "itemStemText": "If an automated system makes a mistake, then it is completely useless", "responseFormatId": "RF1" },
+                { "itemId": "DV9", "itemStemText": "Correctly functioning automated systems are perfectly reliable", "responseFormatId": "RF1" },
+                { "itemId": "DV10", "itemStemText": "Only faulty automated systems provide imperfect results", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

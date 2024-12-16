@@ -1,0 +1,81 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0364.parquet",
+    "datasetUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00225/full#h11",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Automation-Induced Complacency Potential- Revised Scale",
+            "instrumentNameShort": "AICP-R",
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Merritt, S. M., Ako-Brew, A., Bryant, W. J., Staley, A., McKenna, M., Leone, A., & Shirase, L. (2019). Automation-induced complacency potential: Development and validation of a new scale. Frontiers in psychology, 10, 225.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "the use of automation to ease workload",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "AICP1","AICP2","AICP3","AICP4","AICP6"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                },
+                {
+                    "scaleName": "frequency of monitoring under high workload",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [ "AICP5", "AICP8" ],
+                    "upperItemIds": [ "AICP6","AICP7","AICP9","AICP10" ],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "AICP1", "itemStemText": "When I have a lot to do, it makes sense to delegate a task to automation.", "responseFormatId": "RF1" },
+                { "itemId": "AICP2", "itemStemText": "If life were busy, I would let an automated system handle some tasks for me.", "responseFormatId": "RF1" },
+                { "itemId": "AICP3", "itemStemText": "Automation should be used to ease people's workload.", "responseFormatId": "RF1" },
+                { "itemId": "AICP4", "itemStemText": "If automation is available to help me with something, it makes sense for me to pay more attention to my other tasks.", "responseFormatId": "RF1" },
+                { "itemId": "AICP5", "itemStemText": "Even if an automated aid can help me with a task, I should pay attention to its performance.", "responseFormatId": "RF1" },
+                { "itemId": "AICP6", "itemStemText": "Distractions and interruptions are less of a problem for me when I have an automated system to cover some of the work.", "responseFormatId": "RF1" },
+                { "itemId": "AICP7", "itemStemText": "Constantly monitoring an automated system’s performance is a waste of time.", "responseFormatId": "RF1" },
+                { "itemId": "AICP8", "itemStemText": "Even when I have a lot to do, I am likely to watch automation carefully for errors.", "responseFormatId": "RF1" },
+                { "itemId": "AICP9", "itemStemText": "It’s not usually necessary to pay much attention to automation when it is running.", "responseFormatId": "RF1" },
+                { "itemId": "AICP10", "itemStemText": "Carefully watching automation takes time away from more important or interesting things.", "responseFormatId": "RF1" }
+                
+            ]
+        }
+    ]
+}

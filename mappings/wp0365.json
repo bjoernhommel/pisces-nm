@@ -1,0 +1,67 @@
+{
+    "_comment": "",
+    "datasetContentType": "self-report",
+    "datasetFilename": "wp0365.parquet",
+    "datasetUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00225/full#h11",
+    "datasetIsbn": null,
+    "datasetDoi": null,
+    "datasetApaReference": null,
+    "datasetApaCitation": null,
+    "responseFormats": [
+        {
+            "responseFormatId": "RF1",
+            "responseFormatType": "rating scale",
+            "responseFormatDataType": "integer",
+            "responseFormatMinValue": 1,
+            "responseFormatMaxValue": 5,
+            "responseFormatIncrementValue": 1,
+            "responseFormatLabels": {
+                "1": "Strongly disagree",
+                "2": null,
+                "3": null,
+                "4": null,
+                "5": "Strongly agree"
+            }
+        }
+    ],
+    "instruments": [
+        {
+            "instrumentName": "Propensity to Trust Machines",
+            "instrumentNameShort": null,
+            "instrumentLanguage": "en",
+            "instrumentUrl": null,
+            "instrumentIsbn": null,
+            "instrumentDoi": null,
+            "instrumentApaReference": "Merritt, S. M., Ako-Brew, A., Bryant, W. J., Staley, A., McKenna, M., Leone, A., & Shirase, L. (2019). Automation-induced complacency potential: Development and validation of a new scale. Frontiers in psychology, 10, 225.",
+            "instrumentApaCitation": null,
+            "instrumentIsProprietary": false,
+            "scales": [
+                {
+                    "scaleName": "Propensity to Trust Machines",
+                    "scaleDefinitionText": null,
+                    "lowerItemIds": [  ],
+                    "upperItemIds": [ "PT1","PT2","PT3","PT4","PT5","PT6"],
+                    "scaleLowerFeedbackText": null,
+                    "scaleUpperFeedbackText": null,
+                    "scaleFeedbackTexts": null
+                }
+            ],
+            "subsets": [
+                {
+                    "subsetName": "Standard Version",
+                    "subsetDescription": null,
+                    "subsetItemIds": "*",
+                    "scaleStatistics": null
+                }
+            ],
+            "items": [
+                { "itemId": "PT1", "itemStemText": "I usually trust machines until there is a reason not to.", "responseFormatId": "RF1" },
+                { "itemId": "PT2", "itemStemText": "For the most part, I distrust machines.", "responseFormatId": "RF1" },
+                { "itemId": "PT3", "itemStemText": "In general, I would rely on a machine to assist me.", "responseFormatId": "RF1" },
+                { "itemId": "PT4", "itemStemText": "My tendency to trust machines is high.", "responseFormatId": "RF1" },
+                { "itemId": "PT5", "itemStemText": "It is easy for me to trust machines to do their job.", "responseFormatId": "RF1" },
+                { "itemId": "PT6", "itemStemText": "I am likely to trust a machine even when I have little knowledge about it.", "responseFormatId": "RF1" }
+            ]
+        }
+    ]
+}

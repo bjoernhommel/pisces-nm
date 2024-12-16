@@ -6,13 +6,16 @@ data_dir = file.path(this_dir, "/data")
 setwd(this_dir)
 
 # reading a .csv-file
-input_filename = "main_data.sav"
+input_filename = "AllScalesForCFA.csv"
 data = readr::read_csv(file.path(data_dir, input_filename))
 
+data = readr::read_tsv(file.path(data_dir, input_filename))
 
+data <- read.delim("../../pisces-nm/data/AllScalesForCFA.csv", sep = "\t", header = TRUE)
+library(haven)
 input_filename <- "pone.0264889.s001.sav"
 data <- read_sav(file.path(data_dir, input_filename))
-library(haven)
+
 
 library(foreign)
 
@@ -216,7 +219,7 @@ data[, 1:26] = data[, 1:26] %>%
     mutate_if(is.numeric, ~replace(., . == 8, NA))
 
 # saving the .parquet-file
-output_filename = "wp0344.parquet"
+output_filename = "wp0366.parquet"
 
 data %>% 
     arrow::write_parquet(sink = file.path(data_dir, output_filename))
